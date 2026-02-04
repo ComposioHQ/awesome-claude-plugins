@@ -1,0 +1,20 @@
+{
+  "name": "audit-project",
+  "version": "3.7.2",
+  "description": "Multi-agent iterative code review until zero issues remain",
+  "author": {
+    "name": "Avi Fenesh",
+    "email": "[email protected]",
+    "url": "https://github.com/avifenesh"
+  },
+  "homepage": "https://github.com/avifenesh/awesome-slash#audit-project",
+  "repository": "https://github.com/avifenesh/awesome-slash",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "quality",
+    "multi-agent",
+    "framework-specific",
+    "iterative"
+  ]
+}

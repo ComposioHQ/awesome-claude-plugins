@@ -1,0 +1,187 @@
+{
+  "name": "Claude Code Plugin Marketplace",
+  "version": "1.0.0",
+  "description": "A curated marketplace of production-ready plugins for Claude Code",
+  "repository": "https://github.com/composio/awesome-claude-plugins",
+  "plugins": [
+    {
+      "name": "connect-apps",
+      "category": "integrations",
+      "description": "Connect Claude to 500+ apps - Gmail, Slack, GitHub, Notion, and more",
+      "author": "Composio",
+      "tags": ["integrations", "oauth", "gmail", "slack", "github", "notion"]
+    },
+    {
+      "name": "frontend-design",
+      "category": "frontend",
+      "description": "Create distinctive, production-grade interfaces avoiding generic AI aesthetics",
+      "author": "Anthropic",
+      "tags": ["frontend", "design", "ui", "css", "react"]
+    },
+    {
+      "name": "artifacts-builder",
+      "category": "frontend",
+      "description": "Build complex HTML artifacts with React, Tailwind CSS, and shadcn/ui",
+      "author": "Composio",
+      "tags": ["frontend", "react", "tailwind", "shadcn", "artifacts"]
+    },
+    {
+      "name": "theme-factory",
+      "category": "frontend",
+      "description": "10 professional themes for slides, docs, reports, and landing pages",
+      "author": "Composio",
+      "tags": ["design", "themes", "styling", "branding"]
+    },
+    {
+      "name": "canvas-design",
+      "category": "frontend",
+      "description": "Create museum-quality visual art in PNG and PDF formats",
+      "author": "Composio",
+      "tags": ["design", "art", "visual", "pdf", "png"]
+    },
+    {
+      "name": "senior-frontend",
+      "category": "frontend",
+      "description": "React/Next.js/TypeScript patterns with bundle analysis and optimization",
+      "author": "alirezarezvani",
+      "tags": ["frontend", "react", "nextjs", "typescript", "performance"]
+    },
+    {
+      "name": "frontend-developer",
+      "category": "frontend",
+      "description": "Frontend development specialist agent",
+      "author": "Community",
+      "tags": ["frontend", "agent", "development"]
+    },
+    {
+      "name": "commit",
+      "category": "git",
+      "description": "Smart git commits using conventional commit format",
+      "author": "Community",
+      "tags": ["git", "commits", "conventional-commits"]
+    },
+    {
+      "name": "create-pr",
+      "category": "git",
+      "description": "Automates pull request creation with proper templates",
+      "author": "Community",
+      "tags": ["git", "pull-request", "github"]
+    },
+    {
+      "name": "pr-review",
+      "category": "git",
+      "description": "Comprehensive PR reviews with detailed feedback",
+      "author": "Community",
+      "tags": ["git", "code-review", "pull-request"]
+    },
+    {
+      "name": "changelog-generator",
+      "category": "git",
+      "description": "Transform git commits into user-friendly changelogs",
+      "author": "Composio",
+      "tags": ["git", "changelog", "release-notes"]
+    },
+    {
+      "name": "ship",
+      "category": "git",
+      "description": "Complete PR workflow from commit to production",
+      "author": "Community",
+      "tags": ["git", "workflow", "deployment", "ci-cd"]
+    },
+    {
+      "name": "code-review",
+      "category": "quality",
+      "description": "Comprehensive code review with best practices",
+      "author": "Community",
+      "tags": ["code-review", "quality", "best-practices"]
+    },
+    {
+      "name": "test-writer-fixer",
+      "category": "quality",
+      "description": "Automatically write and fix unit tests",
+      "author": "Community",
+      "tags": ["testing", "unit-tests", "jest", "vitest"]
+    },
+    {
+      "name": "debugger",
+      "category": "quality",
+      "description": "Advanced debugging assistant",
+      "author": "Community",
+      "tags": ["debugging", "troubleshooting"]
+    },
+    {
+      "name": "bug-fix",
+      "category": "quality",
+      "description": "Analyzes and fixes bugs in your codebase",
+      "author": "Community",
+      "tags": ["debugging", "bug-fix", "troubleshooting"]
+    },
+    {
+      "name": "backend-architect",
+      "category": "backend",
+      "description": "Backend architecture patterns and system design",
+      "author": "Community",
+      "tags": ["backend", "architecture", "api", "database"]
+    },
+    {
+      "name": "mcp-builder",
+      "category": "backend",
+      "description": "Build high-quality MCP servers for LLM integrations",
+      "author": "Composio",
+      "tags": ["mcp", "servers", "integrations", "python", "typescript"]
+    },
+    {
+      "name": "agent-sdk-dev",
+      "category": "backend",
+      "description": "Claude Agent SDK development helper",
+      "author": "Community",
+      "tags": ["agent-sdk", "agents", "development"]
+    },
+    {
+      "name": "perf",
+      "category": "devops",
+      "description": "Performance analysis and optimization",
+      "author": "Community",
+      "tags": ["performance", "optimization", "profiling"]
+    },
+    {
+      "name": "audit-project",
+      "category": "devops",
+      "description": "Full project audit for quality and issues",
+      "author": "Community",
+      "tags": ["audit", "quality", "dependencies", "security"]
+    },
+    {
+      "name": "documentation-generator",
+      "category": "docs",
+      "description": "Generate comprehensive documentation from code",
+      "author": "Community",
+      "tags": ["documentation", "readme", "api-docs"]
+    },
+    {
+      "name": "security-guidance",
+      "category": "security",
+      "description": "Security best practices and vulnerability detection",
+      "author": "Community",
+      "tags": ["security", "owasp", "vulnerabilities"]
+    },
+    {
+      "name": "developer-growth-analysis",
+      "category": "productivity",
+      "description": "Analyze coding patterns and get personalized learning resources",
+      "author": "Composio",
+      "tags": ["productivity", "learning", "growth", "analytics"]
+    }
+  ],
+  "categories": [
+    {"id": "integrations", "name": "Integrations & Connectivity", "icon": "plug"},
+    {"id": "frontend", "name": "Frontend & Design", "icon": "palette"},
+    {"id": "git", "name": "Git & Version Control", "icon": "git-branch"},
+    {"id": "quality", "name": "Code Quality & Testing", "icon": "check-circle"},
+    {"id": "backend", "name": "Backend & Architecture", "icon": "server"},
+    {"id": "devops", "name": "DevOps & Performance", "icon": "rocket"},
+    {"id": "docs", "name": "Documentation", "icon": "book"},
+    {"id": "security", "name": "Security", "icon": "shield"},
+    {"id": "productivity", "name": "Developer Productivity", "icon": "zap"}
+  ]
+}

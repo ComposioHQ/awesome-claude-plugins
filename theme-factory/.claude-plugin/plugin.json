@@ -1,0 +1,8 @@
+{
+  "name": "theme-factory",
+  "description": "Toolkit for styling artifacts with professional themes. Includes 10 pre-set themes with colors/fonts for slides, docs, reports, HTML landing pages, and more.",
+  "author": {
+    "name": "Composio",
+    "email": "support@composio.dev"
+  }
+}

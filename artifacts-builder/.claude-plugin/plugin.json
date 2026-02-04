@@ -1,0 +1,8 @@
+{
+  "name": "artifacts-builder",
+  "description": "Suite of tools for creating elaborate, multi-component HTML artifacts using React, Tailwind CSS, and shadcn/ui. Use for complex artifacts requiring state management, routing, or shadcn/ui components.",
+  "author": {
+    "name": "Composio",
+    "email": "support@composio.dev"
+  }
+}

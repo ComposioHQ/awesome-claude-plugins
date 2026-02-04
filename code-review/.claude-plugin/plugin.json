@@ -1,0 +1,10 @@
+{
+  "name": "code-review",
+  "description": "Perform a comprehensive code review of recent changes",
+  "version": "1.0.0",
+  "author": {
+    "name": " Anand Tyagi",
+    "url": "https://github.com/ananddtyagi"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/code-review"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "perf",
+  "version": "3.7.2",
+  "description": "Rigorous performance investigation workflow with baselines, profiling, and evidence-backed decisions",
+  "author": {
+    "name": "Avi Fenesh",
+    "email": "[email protected]",
+    "url": "https://github.com/avifenesh"
+  },
+  "homepage": "https://github.com/avifenesh/awesome-slash#perf",
+  "repository": "https://github.com/avifenesh/awesome-slash",
+  "license": "MIT",
+  "keywords": [
+    "performance",
+    "benchmarks",
+    "profiling",
+    "optimization",
+    "baseline"
+  ]
+}

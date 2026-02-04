@@ -1,0 +1,10 @@
+{
+  "name": "create-pr",
+  "description": "Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome, and submitting the PR.",
+  "version": "1.0.0",
+  "author": {
+    "name": "toyamarinyon",
+    "url": "https://github.com/toyamarinyon"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/create-pr"
+}

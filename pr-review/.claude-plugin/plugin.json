@@ -1,0 +1,10 @@
+{
+  "name": "pr-review",
+  "description": "Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase.",
+  "version": "1.0.0",
+  "author": {
+    "name": "arkavo-org",
+    "url": "https://github.com/arkavo-org"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/pr-review"
+}

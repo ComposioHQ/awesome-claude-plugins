@@ -1,0 +1,10 @@
+{
+  "name": "bug-fix",
+  "description": "Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging.",
+  "version": "1.0.0",
+  "author": {
+    "name": "danielscholl",
+    "url": "https://github.com/danielscholl"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/bug-fix"
+}

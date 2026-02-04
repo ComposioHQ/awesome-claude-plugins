@@ -1,0 +1,8 @@
+{
+  "name": "developer-growth-analysis",
+  "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and sends a personalized growth report.",
+  "author": {
+    "name": "Composio",
+    "email": "support@composio.dev"
+  }
+}

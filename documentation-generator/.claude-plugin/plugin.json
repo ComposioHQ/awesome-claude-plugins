@@ -1,0 +1,9 @@
+{
+  "name": "documentation-generator",
+  "description": "Create comprehensive documentation for code, APIs, and projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anonymous"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/documentation-generator"
+}

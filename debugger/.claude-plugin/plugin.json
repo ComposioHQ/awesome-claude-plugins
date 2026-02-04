@@ -1,0 +1,9 @@
+{
+  "name": "debugger",
+  "description": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anand Tyagi"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/debugger"
+}

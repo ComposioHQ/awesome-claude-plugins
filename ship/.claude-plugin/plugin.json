@@ -1,0 +1,21 @@
+{
+  "name": "ship",
+  "version": "3.7.2",
+  "description": "Complete PR workflow from commit to production with validation",
+  "author": {
+    "name": "Avi Fenesh",
+    "email": "[email protected]",
+    "url": "https://github.com/avifenesh"
+  },
+  "homepage": "https://github.com/avifenesh/awesome-slash#ship",
+  "repository": "https://github.com/avifenesh/awesome-slash",
+  "license": "MIT",
+  "keywords": [
+    "ci-cd",
+    "deployment",
+    "pr-workflow",
+    "automation",
+    "railway",
+    "vercel"
+  ]
+}
