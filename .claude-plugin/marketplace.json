@@ -1,0 +1,254 @@
+{
+  "name": "awesome-claude-plugins",
+  "owner": {
+    "name": "Composio",
+    "email": "support@composio.dev"
+  },
+  "metadata": {
+    "description": "A curated marketplace of production-ready plugins for Claude Code",
+    "version": "1.0.0",
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "connect-apps",
+      "source": "./connect-apps",
+      "description": "Connect Claude to 500+ apps - Gmail, Slack, GitHub, Notion, and more",
+      "category": "integrations",
+      "tags": ["integrations", "oauth", "gmail", "slack", "github", "notion"],
+      "author": {
+        "name": "Composio"
+      }
+    },
+    {
+      "name": "frontend-design",
+      "source": "./frontend-design",
+      "description": "Create distinctive, production-grade interfaces avoiding generic AI aesthetics",
+      "category": "frontend",
+      "tags": ["frontend", "design", "ui", "css", "react"],
+      "author": {
+        "name": "Anthropic"
+      }
+    },
+    {
+      "name": "artifacts-builder",
+      "source": "./artifacts-builder",
+      "description": "Build complex HTML artifacts with React, Tailwind CSS, and shadcn/ui",
+      "category": "frontend",
+      "tags": ["frontend", "react", "tailwind", "shadcn", "artifacts"],
+      "author": {
+        "name": "Composio"
+      }
+    },
+    {
+      "name": "theme-factory",
+      "source": "./theme-factory",
+      "description": "10 professional themes for slides, docs, reports, and landing pages",
+      "category": "frontend",
+      "tags": ["design", "themes", "styling", "branding"],
+      "author": {
+        "name": "Composio"
+      }
+    },
+    {
+      "name": "canvas-design",
+      "source": "./canvas-design",
+      "description": "Create museum-quality visual art in PNG and PDF formats",
+      "category": "frontend",
+      "tags": ["design", "art", "visual", "pdf", "png"],
+      "author": {
+        "name": "Composio"
+      }
+    },
+    {
+      "name": "senior-frontend",
+      "source": "./senior-frontend",
+      "description": "React/Next.js/TypeScript patterns with bundle analysis and optimization",
+      "category": "frontend",
+      "tags": ["frontend", "react", "nextjs", "typescript", "performance"],
+      "author": {
+        "name": "alirezarezvani"
+      }
+    },
+    {
+      "name": "frontend-developer",
+      "source": "./frontend-developer",
+      "description": "Frontend development specialist agent",
+      "category": "frontend",
+      "tags": ["frontend", "agent", "development"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "commit",
+      "source": "./commit",
+      "description": "Smart git commits using conventional commit format",
+      "category": "git",
+      "tags": ["git", "commits", "conventional-commits"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "create-pr",
+      "source": "./create-pr",
+      "description": "Automates pull request creation with proper templates",
+      "category": "git",
+      "tags": ["git", "pull-request", "github"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "pr-review",
+      "source": "./pr-review",
+      "description": "Comprehensive PR reviews with detailed feedback",
+      "category": "git",
+      "tags": ["git", "code-review", "pull-request"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "changelog-generator",
+      "source": "./changelog-generator",
+      "description": "Transform git commits into user-friendly changelogs",
+      "category": "git",
+      "tags": ["git", "changelog", "release-notes"],
+      "author": {
+        "name": "Composio"
+      }
+    },
+    {
+      "name": "ship",
+      "source": "./ship",
+      "description": "Complete PR workflow from commit to production",
+      "category": "git",
+      "tags": ["git", "workflow", "deployment", "ci-cd"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "code-review",
+      "source": "./code-review",
+      "description": "Comprehensive code review with best practices",
+      "category": "quality",
+      "tags": ["code-review", "quality", "best-practices"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "test-writer-fixer",
+      "source": "./test-writer-fixer",
+      "description": "Automatically write and fix unit tests",
+      "category": "quality",
+      "tags": ["testing", "unit-tests", "jest", "vitest"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "debugger",
+      "source": "./debugger",
+      "description": "Advanced debugging assistant",
+      "category": "quality",
+      "tags": ["debugging", "troubleshooting"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "bug-fix",
+      "source": "./bug-fix",
+      "description": "Analyzes and fixes bugs in your codebase",
+      "category": "quality",
+      "tags": ["debugging", "bug-fix", "troubleshooting"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "backend-architect",
+      "source": "./backend-architect",
+      "description": "Backend architecture patterns and system design",
+      "category": "backend",
+      "tags": ["backend", "architecture", "api", "database"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "mcp-builder",
+      "source": "./mcp-builder",
+      "description": "Build high-quality MCP servers for LLM integrations",
+      "category": "backend",
+      "tags": ["mcp", "servers", "integrations", "python", "typescript"],
+      "author": {
+        "name": "Composio"
+      }
+    },
+    {
+      "name": "agent-sdk-dev",
+      "source": "./agent-sdk-dev",
+      "description": "Claude Agent SDK development helper",
+      "category": "backend",
+      "tags": ["agent-sdk", "agents", "development"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "perf",
+      "source": "./perf",
+      "description": "Performance analysis and optimization",
+      "category": "devops",
+      "tags": ["performance", "optimization", "profiling"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "audit-project",
+      "source": "./audit-project",
+      "description": "Full project audit for quality and issues",
+      "category": "devops",
+      "tags": ["audit", "quality", "dependencies", "security"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "documentation-generator",
+      "source": "./documentation-generator",
+      "description": "Generate comprehensive documentation from code",
+      "category": "docs",
+      "tags": ["documentation", "readme", "api-docs"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "security-guidance",
+      "source": "./security-guidance",
+      "description": "Security best practices and vulnerability detection",
+      "category": "security",
+      "tags": ["security", "owasp", "vulnerabilities"],
+      "author": {
+        "name": "Community"
+      }
+    },
+    {
+      "name": "developer-growth-analysis",
+      "source": "./developer-growth-analysis",
+      "description": "Analyze coding patterns and get personalized learning resources",
+      "category": "productivity",
+      "tags": ["productivity", "learning", "growth", "analytics"],
+      "author": {
+        "name": "Composio"
+      }
+    }
+  ]
+}
