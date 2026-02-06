@@ -1,4 +1,4 @@
-<h1 align="center">Awesome Claude Plugins</h1>
+<h1 align="center">Awesome Claude Code Plugins</h1>
 
 <p align="center">
 <a href="https://platform.composio.dev?next_page=/settings/api-keys">
