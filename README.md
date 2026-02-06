@@ -129,6 +129,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [perf](./perf) - Performance analysis and optimization. Identify bottlenecks and improve speed.
 - [audit-project](./audit-project) - Full project audit for code quality, dependencies, security, and best practices.
+- [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 
 ### Documentation & Security
 
