@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Browse, install, and publish plugins via native `/plugin marketplace add` or CLI. Publishers earn 80% of sales. Agent-first API lets AI agents register and publish with zero auth.
 
 ### Frontend & Design
 
