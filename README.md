@@ -138,6 +138,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
+- [one-shot-ship](./one-shot-ship) - AI-powered development workflows with 43 commands, 49 specialized agents, enforced TDD, and structured planning. Complete lifecycle from idea to production-ready PR.
 
 ## Getting Started
 

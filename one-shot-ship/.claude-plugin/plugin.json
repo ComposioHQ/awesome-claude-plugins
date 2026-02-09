@@ -1,0 +1,22 @@
+{
+  "name": "oss",
+  "description": "AI-powered development workflows for Claude Code. 43 commands, 49 specialized agents. Enforces TDD, structured planning, and quality gates. Idea to production-ready PR in one session.",
+  "version": "2.0.25",
+  "author": {
+    "name": "One Shot Ship",
+    "email": "hello@oneshotship.com"
+  },
+  "homepage": "https://www.oneshotship.com",
+  "repository": "https://github.com/501336North/one-shot-ship-plugin",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "tdd",
+    "agents",
+    "development",
+    "deployment",
+    "productivity",
+    "testing",
+    "code-quality"
+  ]
+}
