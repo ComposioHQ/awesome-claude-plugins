@@ -1,0 +1,13 @@
+{
+  "name": "skill-bus",
+  "description": "The skill for connecting skills. Connect context, conditions, and other skills to any skill — no modification required.",
+  "version": "0.7.0",
+  "author": {
+    "name": "Joey Nguyen",
+    "url": "https://github.com/joeymnguyen"
+  },
+  "repository": "https://github.com/joeymnguyen/skill-bus",
+  "homepage": "https://github.com/joeymnguyen/skill-bus",
+  "license": "MIT",
+  "keywords": ["skills", "hooks", "subscriptions", "context", "middleware", "conditions"]
+}
