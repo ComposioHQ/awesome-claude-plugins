@@ -138,6 +138,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
+- [management-consulting](./management-consulting) - 28 commands and 9 skills for the full consulting engagement lifecycle. RFP analysis, strategic frameworks (Porter's, 7S, SWOT, BCG), financial modeling, implementation planning, and executive deliverables.
 
 ## Getting Started
 
