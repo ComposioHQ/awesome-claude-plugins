@@ -1,0 +1,10 @@
+{
+  "name": "agentsys",
+  "description": "Agent runtime and orchestration system for Claude Code, OpenCode, and Codex CLI. Provides 12 plugins with 41 agents and 27 skills for workflow automation, code review, performance analysis, and more.",
+  "version": "5.0.0",
+  "author": {
+    "name": "avifenesh",
+    "url": "https://github.com/avifenesh"
+  },
+  "homepage": "https://github.com/avifenesh/agentsys"
+}
