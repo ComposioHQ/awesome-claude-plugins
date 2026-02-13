@@ -137,6 +137,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Developer Productivity
 
+- [agentsys](./agentsys) - Agent runtime & orchestration system with 12 plugins, 41 agents, and 27 skills. Includes workflow automation (/next-task, /ship), multi-agent code review, performance investigation, AI slop cleanup, plan drift detection, and AST repo mapping. Supports Claude Code, OpenCode, and Codex CLI. Install via `npm install -g agentsys`.
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 
 ## Getting Started

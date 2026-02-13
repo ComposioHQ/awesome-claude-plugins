@@ -171,6 +171,13 @@
       "description": "Analyze coding patterns and get personalized learning resources",
       "author": "Composio",
       "tags": ["productivity", "learning", "growth", "analytics"]
+    },
+    {
+      "name": "agentsys",
+      "category": "productivity",
+      "description": "Agent runtime and orchestration system with 12 plugins, 41 agents, and 27 skills for Claude Code, OpenCode, and Codex CLI",
+      "author": "avifenesh",
+      "tags": ["orchestration", "agents", "workflow", "code-review", "performance", "multi-agent"]
     }
   ],
   "categories": [
