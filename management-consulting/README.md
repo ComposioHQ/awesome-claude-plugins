@@ -1,22 +1,22 @@
 # Management Consulting Plugin
 
-28 commands and 9 skills for the full consulting engagement lifecycle — RFP teardown to project close-out.
+28 commands and 9 skills for the full consulting engagement lifecycle, from RFP teardown to project close-out.
 
 > Built on the [Agent Skills](https://agentskills.io) open standard. Works with Claude Code, Cursor, Windsurf, Cline, GitHub Copilot, Gemini CLI, and [20+ other agents](https://agentskills.io).
 
 ## Why this exists
 
-Consulting runs on structured thinking. MECE breakdowns, hypothesis trees, framework applications, governance cadences — these are repeatable patterns, not creative leaps. This plugin encodes those patterns so you spend less time on scaffolding and more time on the actual thinking.
+Consulting runs on structured thinking. Hypothesis trees, framework applications, governance cadences: these are repeatable patterns, not creative leaps. This plugin encodes those patterns so you spend less time on scaffolding and more time on the actual thinking.
 
 It covers seven phases of engagement work:
 
-**Win the work** — RFP analysis, proposals, SOWs, pitch decks
-**Stand up the engagement** — kickoff, governance, stakeholder mapping
-**Do the analysis** — frameworks, market research, financial modeling, due diligence
-**Build the strategy** — options generation, business cases, roadmaps
-**Plan the execution** — implementation, change management, org design, process improvement
-**Deliver the artifacts** — presentations, reports, workshops, thought leadership
-**Run the project** — status reports, risk registers, project close-out
+1. **Win the work**: RFP analysis, proposals, SOWs, pitch decks
+2. **Stand up the engagement**: kickoff, governance, stakeholder mapping
+3. **Do the analysis**: frameworks, market research, financial modeling, due diligence
+4. **Build the strategy**: options generation, business cases, roadmaps
+5. **Plan the execution**: implementation, change management, org design, process improvement
+6. **Deliver the artifacts**: presentations, reports, workshops, thought leadership
+7. **Run the project**: status reports, risk registers, project close-out
 
 Every command works standalone with web search and your own context. Connect MCP servers (Slack, Jira, Google Drive, etc.) and they get better.
 
@@ -39,15 +39,15 @@ git clone https://github.com/anotb/management-consulting-plugin.git .skills/mana
 
 ## Commands
 
-Slash commands for explicit workflows. Each one walks you through a structured process — ask questions, gather context, produce output.
+Slash commands for explicit workflows. Each one walks you through a structured process: ask questions, gather context, produce output.
 
 ### Business Development
 
 | Command | What it does |
 |---|---|
-| `/rfp-analyze` | Tear apart an RFP — requirements, evaluation criteria, win themes, competitive positioning |
+| `/rfp-analyze` | Tear apart an RFP: requirements, evaluation criteria, win themes, competitive positioning |
 | `/proposal-develop` | Build a proposal with value prop, technical approach, team structure, pricing |
-| `/sow-create` | Draft a Statement of Work — scope, deliverables, timeline, assumptions, exclusions |
+| `/sow-create` | Draft a Statement of Work: scope, deliverables, timeline, assumptions, exclusions |
 | `/pitch-deck` | Structure a client pitch with storyline, key messages, and slide-by-slide outline |
 | `/value-proposition` | Develop differentiated positioning against competitors |
 
@@ -55,16 +55,16 @@ Slash commands for explicit workflows. Each one walks you through a structured p
 
 | Command | What it does |
 |---|---|
-| `/kickoff` | Design a kickoff workshop — charter, objectives, ways of working, initial workplan |
-| `/discovery` | Run a discovery phase — interview guides, data requests, synthesis templates |
-| `/governance-setup` | Set up RACI, steering committee structure, decision rights, escalation paths |
+| `/kickoff` | Design a kickoff workshop: charter, objectives, ways of working, initial workplan |
+| `/discovery` | Run a discovery phase: interview guides, data requests, synthesis templates |
+| `/governance-setup` | Set up responsibility matrix, steering committee structure, decision rights, escalation paths |
 | `/stakeholder-map` | Map stakeholders by influence and interest, build engagement strategies for each |
 
 ### Research & Analysis
 
 | Command | What it does |
 |---|---|
-| `/framework-apply` | Apply consulting frameworks — 7S, Five Forces, SWOT, PESTLE, Value Chain, and more |
+| `/framework-apply` | Apply strategic analysis frameworks: competitive, environmental, organizational, portfolio, and more |
 | `/market-analysis` | Industry sizing, competitive landscape, trend analysis, market entry assessment |
 | `/financial-analysis` | Financial models, ROI calculations, sensitivity analysis, business case math |
 | `/due-diligence` | Commercial, operational, or strategic due diligence with red flag identification |
@@ -74,56 +74,56 @@ Slash commands for explicit workflows. Each one walks you through a structured p
 | Command | What it does |
 |---|---|
 | `/options-generate` | Generate strategic options, define evaluation criteria, score and recommend |
-| `/business-case` | Full investment business case — NPV, IRR, payback, risk-adjusted scenarios |
+| `/business-case` | Full investment business case: projections, payback, risk-adjusted scenarios |
 | `/roadmap-create` | Strategic roadmap with phases, milestones, dependencies, and resource requirements |
 
 ### Implementation
 
 | Command | What it does |
 |---|---|
-| `/implementation-plan` | Detailed implementation plan — workstreams, owners, timelines, dependencies |
-| `/change-plan` | Change management strategy — stakeholder impact, communications, training, resistance |
-| `/process-improve` | Lean Six Sigma process analysis — current state, root cause, future state, control plan |
-| `/org-design` | Organizational structure design — spans, layers, roles, reporting lines, transition plan |
+| `/implementation-plan` | Detailed implementation plan: workstreams, owners, timelines, dependencies |
+| `/change-plan` | Change management strategy: stakeholder impact, communications, training, resistance |
+| `/process-improve` | Process analysis: current state mapping, root cause, future state, control plan |
+| `/org-design` | Organizational structure design: spans, layers, roles, reporting lines, transition plan |
 
 ### Deliverables
 
 | Command | What it does |
 |---|---|
-| `/presentation-create` | Executive presentation — pyramid structure, storyline, exhibit design |
-| `/report-generate` | Strategic report — findings, analysis, recommendations, appendices |
-| `/workshop-facilitate` | Workshop design — objectives, agenda, exercises, facilitation guide, follow-up |
-| `/thought-leadership` | POVs, white papers, case studies — research, structure, draft, and polish |
+| `/presentation-create` | Executive presentation: top-down structure, storyline, exhibit design |
+| `/report-generate` | Strategic report: findings, analysis, recommendations, appendices |
+| `/workshop-facilitate` | Workshop design: objectives, agenda, exercises, facilitation guide, follow-up |
+| `/thought-leadership` | POVs, white papers, case studies: research, structure, draft, and polish |
 
 ### Project Management
 
 | Command | What it does |
 |---|---|
-| `/status-report` | Weekly/monthly status — progress, risks, decisions needed, next steps |
+| `/status-report` | Weekly/monthly status: progress, risks, decisions needed, next steps |
 | `/risk-register` | Identify risks, assess likelihood and impact, define mitigations and owners |
-| `/project-close` | Close-out — deliverable sign-off, lessons learned, knowledge transfer, transition |
+| `/project-close` | Close-out: deliverable sign-off, lessons learned, knowledge transfer, transition |
 
 ### Commercial
 
 | Command | What it does |
 |---|---|
-| `/pricing-model` | Pricing strategy — fixed fee, T&M, value-based, blended rate calculations |
+| `/pricing-model` | Pricing strategy: fixed fee, T&M, value-based, blended rate calculations |
 
 ## Skills
 
-Skills are domain knowledge the agent uses automatically when it's relevant — you don't invoke these, they activate in context.
+Skills are domain knowledge the agent uses automatically when relevant. You don't invoke these; they activate in context.
 
 | Skill | What it knows |
 |---|---|
-| `problem-solving` | Hypothesis-driven problem solving, issue trees, MECE structuring |
-| `strategic-frameworks` | 20+ frameworks — Porter's, BCG matrix, 7S, Blue Ocean, Ansoff, and more |
-| `workshop-facilitation` | Design thinking, innovation sprints, ideation techniques, group facilitation |
-| `executive-presentation` | Pyramid principle, top-down communication, C-suite storytelling |
-| `financial-modeling` | ROI, NPV, DCF, IRR, sensitivity tables, scenario modeling |
-| `change-management` | Kotter, ADKAR, resistance management, adoption curves, communications planning |
-| `process-excellence` | Lean Six Sigma, value stream mapping, DMAIC, statistical process control |
-| `project-governance` | RACI matrices, steering committees, stage gates, decision frameworks |
-| `due-diligence` | Commercial DD, operational DD, integration planning, synergy estimation |
+| `problem-solving` | Hypothesis-driven problem solving, issue trees, structured decomposition |
+| `strategic-frameworks` | Framework selection by business question, multi-framework synthesis, competitive and portfolio analysis |
+| `workshop-facilitation` | Session design, ideation techniques, group facilitation, innovation sprints |
+| `executive-presentation` | Top-down structured communication, storytelling for executives, slide design and visual analytics |
+| `financial-modeling` | Business case math, sensitivity analysis, scenario modeling, investment projections |
+| `change-management` | Transformation planning, resistance management, individual adoption tracking, communications planning |
+| `process-excellence` | Process analysis, value stream mapping, root cause investigation, control plans |
+| `project-governance` | Responsibility matrices, steering committees, stage gates, decision frameworks |
+| `due-diligence` | Commercial, operational, and strategic assessment, red flag identification, integration planning |
 
 ## Example Workflows
 
@@ -132,7 +132,7 @@ Commands are designed to chain together. Here's how they map to common engagemen
 ### Strategy engagement
 
 ```
-/kickoff Acme Corp Digital Strategy
+/kickoff [Project Name] [Client]
 ```
 
 Define the charter and governance, then work through:
@@ -145,7 +145,7 @@ Define the charter and governance, then work through:
 ### Transformation program
 
 ```
-/discovery Current state operations assessment for Acme Corp
+/discovery Current state operations assessment for [Client]
 ```
 
 Assess current state, then:
@@ -190,7 +190,7 @@ Create `.claude/settings.local.json` in the plugin directory to set defaults:
   "firm": {
     "name": "Your Firm",
     "methodology": "hypothesis-driven",
-    "standard_frameworks": ["7S", "Five Forces", "SWOT"]
+    "standard_frameworks": ["competitive", "environmental", "organizational"]
   },
   "engagement_defaults": {
     "pricing_model": "value-based",
@@ -203,7 +203,7 @@ If these aren't set, commands will ask you interactively.
 
 ## Heads up
 
-This plugin produces structured consulting outputs — frameworks, analyses, plans, deliverables. Everything should be reviewed by someone who knows the client context before it goes anywhere near a steering committee.
+This plugin produces structured consulting outputs: frameworks, analyses, plans, deliverables. Everything should be reviewed by someone who knows the client context before it goes anywhere near a steering committee.
 
 ## License
 
