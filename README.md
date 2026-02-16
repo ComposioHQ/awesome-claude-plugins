@@ -197,6 +197,7 @@ Please ensure your plugin:
 - [Plugin Development Guide](https://code.claude.com/docs/en/plugins)
 - [Discover Plugins](https://code.claude.com/docs/en/discover-plugins)
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - More skills and resources
+- [wondelai/skills](https://github.com/wondelai/skills) - 25 agent skills for UX, marketing, sales, product strategy, and growth
 
 ## License
 
