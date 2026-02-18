@@ -137,6 +137,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Developer Productivity
 
+- [context-memory](./context-memory) - Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5. Save with /remember, search with /recall.
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 
 ## Getting Started

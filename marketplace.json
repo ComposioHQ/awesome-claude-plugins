@@ -166,6 +166,13 @@
       "tags": ["security", "owasp", "vulnerabilities"]
     },
     {
+      "name": "context-memory",
+      "category": "productivity",
+      "description": "Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5",
+      "author": "ErebusEnigma",
+      "tags": ["memory", "context", "search", "sessions", "sqlite", "persistence"]
+    },
+    {
       "name": "developer-growth-analysis",
       "category": "productivity",
       "description": "Analyze coding patterns and get personalized learning resources",
