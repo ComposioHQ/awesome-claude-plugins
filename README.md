@@ -139,6 +139,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 
+### Image Generation
+
+- [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+
 ## Getting Started
 
 ### Using Plugins
