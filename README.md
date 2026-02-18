@@ -138,6 +138,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
+- [plan-build-run](./plan-build-run) - Context-engineered development workflow that solves context rot. 21 commands, 10 agents, 15 hooks, wave-based parallel execution, and kill-safe state.
 
 ## Getting Started
 
