@@ -12,6 +12,13 @@
       "tags": ["integrations", "oauth", "gmail", "slack", "github", "notion"]
     },
     {
+      "name": "taskade",
+      "category": "integrations",
+      "description": "Manage workspaces, projects, tasks, AI agents, and automations via the official Taskade MCP server",
+      "author": "Taskade",
+      "tags": ["integrations", "mcp", "project-management", "tasks", "ai-agents", "automations"]
+    },
+    {
       "name": "frontend-design",
       "category": "frontend",
       "description": "Create distinctive, production-grade interfaces avoiding generic AI aesthetics",
