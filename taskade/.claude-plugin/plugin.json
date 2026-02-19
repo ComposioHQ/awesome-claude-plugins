@@ -1,0 +1,10 @@
+{
+  "name": "taskade",
+  "description": "Connect Claude to Taskade for managing workspaces, projects, tasks, AI agents, and workflow automations via the official Taskade MCP server.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Taskade",
+    "url": "https://github.com/taskade"
+  },
+  "homepage": "https://github.com/taskade/mcp"
+}
