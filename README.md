@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [LightCMS](https://github.com/jonradoff/lightcms) - AI-native CMS with 41 MCP tools for managing websites through natural language. Create pages, templates, assets, themes, collections, redirects, and more with full content versioning.
 
 ### Frontend & Design
 
