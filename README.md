@@ -201,6 +201,7 @@ Please ensure your plugin:
 
 ## Resources
 
+- [AnchorBrowser](https://anchorbrowser.io) [![License](https://img.shields.io/github/license/anchorbrowser/anchorbrowser?style=for-the-badge)](https://github.com/anchorbrowser/anchorbrowser/blob/main/LICENSE) - Cloud browser platform for AI agents providing managed Chromium instances via WebSocket/CDP, with built-in anti-detection, CAPTCHA solving, residential proxy rotation, and a native MCP server.
 - [Claude Code Documentation](https://code.claude.com/docs)
 - [Plugin Development Guide](https://code.claude.com/docs/en/plugins)
 - [Discover Plugins](https://code.claude.com/docs/en/discover-plugins)
