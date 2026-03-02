@@ -95,8 +95,7 @@ DEFAULT_SETTINGS = {
     "telemetry": False,
     "observeUnmatched": False,
     "telemetryPath": "",
-    "maxLogSizeKB": 512,
-    "completionHooks": False
+    "maxLogSizeKB": 512
 }
 
 # Collector for non-fatal warnings to include in systemMessage
@@ -666,7 +665,8 @@ def _main():
             completion_instruction = (
                 f"\n\n---\n[skill-bus] COMPLETION TRIGGER: When you have FULLY completed "
                 f"the work described by this skill — not begun it, FULLY delivered all "
-                f"outputs — you MUST run `/skill-bus:complete {skill_name}{depth_arg}` to trigger "
+                f"outputs — you MUST invoke the Skill tool with skill: \"skill-bus:complete\" "
+                f"and args: \"{skill_name}{depth_arg}\" to trigger "
                 f"downstream subscriptions. Do NOT skip this step."
             )
 
