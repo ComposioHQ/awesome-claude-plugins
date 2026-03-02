@@ -135,6 +135,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Documentation & Security
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
+- [readme-best-practices](https://github.com/ofershap/readme-best-practices) - Teaches agents to write READMEs like landing pages instead of API docs. BLUF headers, feature tables, copy-paste install blocks.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 
 ### Developer Productivity
