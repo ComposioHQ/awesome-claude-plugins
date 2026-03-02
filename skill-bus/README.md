@@ -245,7 +245,7 @@ Every subscription has a `when` field that controls when it fires relative to th
 
 **Post** fires immediately after the skill's tool call returns — not after Claude has finished acting on it. This is a narrow window: the skill tool has responded, but Claude hasn't necessarily completed the work the skill kicked off. Post is useful for reminders or supplementary guidance that should appear after the skill loads but before Claude wraps up. Conditions are evaluated at post-fire time.
 
-**Complete** is different from both. It fires after Claude signals that it has finished the skill's *entire scope of work* — not just the tool call, but everything the skill asked Claude to do. This is a synthetic signal: during pre-timing, Skill Bus auto-injects an instruction telling Claude to run `/skill-bus:complete` when the work is done. Claude then fires that signal, and Skill Bus evaluates the complete-timing subscriptions at that point (including conditions). This enables skill-to-skill chaining: "after writing the plan, run the code review."
+**Complete** is different from both. It fires after Claude signals that it has finished the skill's *entire scope of work* — not just the tool call, but everything the skill asked Claude to do. This is a synthetic signal: during pre-timing, Skill Bus auto-injects an instruction telling Claude to invoke `skill-bus:complete` via the Skill tool when the work is done. Claude then fires that signal, and Skill Bus evaluates the complete-timing subscriptions at that point (including conditions). This enables skill-to-skill chaining: "after writing the plan, run the code review."
 
 Complete timing is experimental and requires two settings:
 - `"completionHooks": true` — feature flag to enable the mechanism
@@ -632,7 +632,7 @@ The `session-stats` handler generates a live telemetry summary. If it fails, the
 
 ## Testing
 
-337 tests across four suites:
+342 tests across four suites:
 
 ```bash
 # Run all tests
@@ -644,10 +644,10 @@ bash tests/test_telemetry.sh
 # Condition tests (24 tests — all 6 condition types + edge cases)
 bash tests/test_conditions.sh
 
-# CLI tests (106 tests — groups A-L: format, list, simulate, scope, skills, inserts, review, scan, set, add-insert, complete timing, hardening guards)
+# CLI tests (108 tests — groups A-L: format, list, simulate, scope, skills, inserts, review, scan, set, add-insert, complete timing, hardening guards)
 bash tests/test_cli.sh
 
-# Integration tests (155 tests — groups H-W: dispatch, monitor, conditions, merge, edge cases, nudge, dynamic, onboard, complete timing)
+# Integration tests (158 tests — groups H-W: dispatch, monitor, conditions, merge, edge cases, nudge, dynamic, onboard, complete timing)
 bash tests/test_comprehensive.sh
 ```
 
@@ -701,8 +701,8 @@ skill-bus/
 └── tests/
     ├── test_telemetry.sh       # 52 telemetry tests
     ├── test_conditions.sh      # 24 condition tests
-    ├── test_cli.sh             # 106 CLI tests
-    └── test_comprehensive.sh   # 155 integration tests
+    ├── test_cli.sh             # 108 CLI tests
+    └── test_comprehensive.sh   # 158 integration tests
 ```
 
 ### Tech Stack

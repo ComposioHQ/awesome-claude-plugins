@@ -36,7 +36,7 @@ Ask using AskUserQuestion:
 **"When should this fire?"**
 - **Pre** - Before the skill loads. Use for: adding context, referencing files, setting up state.
 - **Post** - After the skill tool returns. Use for: supplementing skill output.
-- **Complete** *(experimental)* - After Claude finishes the skill's full scope of work. Use for: triggering follow-up skills, capturing outputs, chaining workflows. Auto-injects "you MUST run /skill-bus:complete" instruction. Requires `"completionHooks": true` in settings.
+- **Complete** *(experimental)* - After Claude finishes the skill's full scope of work. Use for: triggering follow-up skills, capturing outputs, chaining workflows. Auto-injects a completion trigger instruction telling Claude to invoke `skill-bus:complete` via the Skill tool when done. Requires `"completionHooks": true` in settings.
 
 ### Step 4: Insert Selection
 
