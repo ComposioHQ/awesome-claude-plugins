@@ -147,6 +147,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
 
+### API Gateway & Multi-Service Platforms
+
+- [SkillBoss](https://skillboss.co) - **Backed by OpenAI Startup Fund & Amazon.** One SkillBoss key for 100+ AI services: GPT-5, Claude Opus 4.5, Gemini, video generation (Veo 3.1), web scraping (LinkedIn, Twitter), Stripe payments, SendGrid email, and more. Native Claude Code, Cursor, Windsurf integration. Pay-as-you-go, credits never expire. ([Docs](https://skillboss.co/docs))
+
 ## Getting Started
 
 ### Using Plugins
