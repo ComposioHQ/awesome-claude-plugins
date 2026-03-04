@@ -47,7 +47,7 @@ The **[connect-apps](./connect-apps)** plugin lets Claude perform real actions -
 ### 1. Clone & Run
 
 ```bash
-git clone https://github.com/composio/awesome-claude-plugins.git
+git clone https://github.com/ComposioHQ/awesome-claude-plugins.git
 cd awesome-claude-plugins
 claude --plugin-dir ./connect-apps
 ```
@@ -154,7 +154,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 Clone the repo and run Claude with any plugin:
 
 ```bash
-git clone https://github.com/composio/awesome-claude-plugins.git
+git clone https://github.com/ComposioHQ/awesome-claude-plugins.git
 cd awesome-claude-plugins
 claude --plugin-dir ./commit
 ```
