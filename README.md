@@ -124,6 +124,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [backend-architect](./backend-architect) - Backend architecture patterns, API design, database schemas, and system design.
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
+- [defi-mcp](https://github.com/OzorOwn/defi-mcp) - DeFi MCP server for Claude Desktop and Cursor. Real-time token prices, wallet balances across 9 chains, and DEX swap quotes via Model Context Protocol.
 
 ### DevOps & Performance
 
