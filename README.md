@@ -146,6 +146,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Image Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+- [pixelmuse](https://github.com/starmorph/pixelmuse-cli) - AI image generation with 6 models (Flux, Imagen 3, Recraft V4, Nano Banana). Ships as a CLI, MCP server, and Claude Code skill. Generate images from natural language with `/pixelmuse-generate`.
 
 ## Getting Started
 
