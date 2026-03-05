@@ -135,6 +135,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Documentation & Security
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
+- [PitchDocs](https://github.com/littlebearapps/pitchdocs) - Documentation plugin with 14 skills and 12 commands. Scans codebases to extract features with file-level evidence and generates marketing-ready READMEs, CHANGELOGs, ROADMAPs, AI context files (AGENTS.md, CLAUDE.md, .cursorrules, and 4 more), and 20+ docs total. Includes GEO optimisation for AI citation, quality scoring (0-100), and Context Guard hooks. Works with 9 AI tools. MIT licensed.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 
 ### Developer Productivity
