@@ -80,6 +80,8 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
+  - [Image Generation](#image-generation)
+  - [SEO & Marketing](#seo--marketing)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Resources](#resources)
@@ -146,6 +148,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Image Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+
+### SEO & Marketing
+
+- [GEOScore MCP Server](https://github.com/henu-wang/geoscore-mcp) - AI search optimization (GEO) MCP server. Scan websites for AI search readiness, generate llms.txt, Schema.org fixes, meta tag optimizations, and track AI visibility.
 
 ## Getting Started
 
