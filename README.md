@@ -118,6 +118,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [testpilot](https://github.com/Siddhesh2377/testpilot) - Autonomous testing autopilot. Analyzes any project, generates tests, runs them, fixes failures, and re-runs until green. Three slash commands (`/testpilot`, `/testfix`, `/testwatch`) with specialized agents.
 
 ### Backend & Architecture
 
