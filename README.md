@@ -142,6 +142,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
+- [claude-synapse](https://github.com/PooterAi/claude-synapse) - Cognitive memory plugin for Claude Code. 18 MCP tools, quality gate with deduplication and conflict detection, 9-stage hippocampal retrieval pipeline, learned rules extraction, and two-strike error circuit breaker. Zero LLM cost — pure computation, no Agent SDK calls. Fully local JSON file storage.
 
 ### Image Generation
 
