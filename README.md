@@ -134,6 +134,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Documentation & Security
 
+- [doc-smith-skills](https://github.com/AIGNE-io/doc-smith-skills) - Generate structured HTML documentation sites from code with AI diagrams, multi-language translation, and one-click cloud publishing.
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 
