@@ -118,6 +118,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [preflight](https://github.com/preflight-dev/preflight) - 24-tool MCP server that catches vague prompts before they cost you 2-3x in wrong→fix cycles. Scores prompts across 12 categories, learns from past corrections, estimates token cost, and provides semantic search across session history with LanceDB vectors. `npx preflight-dev` to get started.
 
 ### Backend & Architecture
 
