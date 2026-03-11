@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X API & Twitter scraper skill for AI coding agents. 40+ tools: tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions, Telegram integrations. REST API, MCP server & webhooks.
 
 ### Frontend & Design
 
