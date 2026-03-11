@@ -79,6 +79,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [Backend & Architecture](#backend--architecture)
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
+  - [Finance & Fintech](#finance--fintech)
   - [Developer Productivity](#developer-productivity)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
@@ -142,6 +143,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
+
+### Finance & Fintech
+
+- [LendTrain Mortgage Refinance](https://github.com/lendtrain/mortgage) - AI-native mortgage refinance plugin with real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, weighted recommendation scoring, and regulatory compliance. No API key required. Install via . ([Website](https://www.lendtrain.com))
 
 ### Image Generation
 
