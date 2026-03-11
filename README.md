@@ -146,7 +146,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Finance & Fintech
 
-- [LendTrain Mortgage Refinance](https://github.com/lendtrain/mortgage) - AI-native mortgage refinance plugin with real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, weighted recommendation scoring, and regulatory compliance. No API key required. Install via . ([Website](https://www.lendtrain.com))
+- [LendTrain Mortgage Refinance](https://github.com/lendtrain/mortgage) - AI-native mortgage refinance plugin with real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, weighted recommendation scoring, and regulatory compliance. No API key required. ([Website](https://www.lendtrain.com))
 
 ### Image Generation
 
