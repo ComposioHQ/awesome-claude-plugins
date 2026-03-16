@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [rustchain-mcp](https://github.com/Scottcjn/rustchain-mcp) - MCP server for RustChain blockchain and BoTTube video platform. 14 tools for querying miners, balances, videos, and earning RTC tokens via Proof-of-Antiquity consensus.
 
 ### Frontend & Design
 
