@@ -143,6 +143,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
 
+### Gamification
+
+- [@hackersbaby/plugin](https://www.npmjs.com/package/@hackersbaby/plugin) - Global leaderboard and scoring system for Claude Code. Points for sessions, commits, deployments. Streaks up to 3x multiplier. [hackers.baby](https://hackers.baby)
+
 ### Image Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
