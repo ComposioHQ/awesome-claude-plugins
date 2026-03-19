@@ -136,6 +136,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
+- [privacy-mask](https://github.com/fullstackcrew-alpha/privacy-mask) - Local image privacy masking tool. Detects and redacts PII, API keys, and secrets in screenshots via OCR + 47 regex rules before they reach Claude. Installs as a UserPromptSubmit hook. 100% offline, zero network calls.
 
 ### Developer Productivity
 
