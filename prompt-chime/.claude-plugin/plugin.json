@@ -1,0 +1,17 @@
+{
+  "name": "prompt-chime",
+  "version": "1.2.0",
+  "description": "Cross-platform notification toolkit — get alerted when prompts complete with customizable sounds, toast notifications, profiles, and quiet hours.",
+  "author": {
+    "name": "pick",
+    "url": "https://github.com/pick"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pick/prompt-chime"
+  },
+  "license": "MIT",
+  "keywords": ["notifications", "sounds", "alerts", "productivity"],
+  "hooks": "../hooks/hooks.json",
+  "skills": "../skills/"
+}

@@ -171,6 +171,13 @@
       "description": "Analyze coding patterns and get personalized learning resources",
       "author": "Composio",
       "tags": ["productivity", "learning", "growth", "analytics"]
+    },
+    {
+      "name": "prompt-chime",
+      "category": "productivity",
+      "description": "Cross-platform notification sounds and toast alerts when prompts complete, with meme presets, profiles, and quiet hours",
+      "author": "pick",
+      "tags": ["notifications", "sounds", "alerts", "productivity", "hooks"]
     }
   ],
   "categories": [
