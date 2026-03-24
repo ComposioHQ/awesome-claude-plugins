@@ -138,6 +138,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 
 ### Developer Productivity
+- [claude-sounds](https://github.com/culminationAI/claude-sounds) - Your Claude Code shouldn't be silent. Sound effects for all hooks — spells, chimes, clicks. Drop mp3s to customize.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
