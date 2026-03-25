@@ -70,6 +70,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 
 ## Contents
 
+- [SkillFlow](https://github.com/rafsilva85/skillflow-mcp-server) - Open marketplace for AI agent skills. Search and discover 500+ MCP servers and automation tools.
 - [What Are Claude Plugins?](#what-are-claude-plugins)
 - [Plugins](#plugins)
   - [Integrations](#integrations)
