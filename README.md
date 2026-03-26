@@ -118,6 +118,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [Clarvia MCP](https://github.com/clarvia-project/scanner) - AEO (Agent Experience Optimization) scoring for MCP servers. Gate-check tools before using them, find better alternatives, and audit your own MCP server quality. 15,400+ tools indexed. Install: `claude mcp add clarvia -- npx -y clarvia-mcp-server`
 
 ### Backend & Architecture
 
