@@ -118,6 +118,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [adversarial-review-coding](https://github.com/robertoecf/adversarial-review-coding) - Cross-model adversarial code review. Spawns background subagents that call Codex CLI and Gemini CLI for independent red-team analysis, cross-validates against Claude, and returns unified findings with P0-P3 severity.
 
 ### Backend & Architecture
 
