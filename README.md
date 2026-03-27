@@ -150,7 +150,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
-
+- [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) - Detects 61 categories of AI writing patterns and rewrites text to remove them. Tiered vocabulary (112-entry replacement table), severity levels, content-type profiles, and a zero-dependency detector engine.
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
