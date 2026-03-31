@@ -118,12 +118,14 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [swing-skills](https://github.com/TheStack-ai/swing-skills) - 6 cognitive firewalls for Claude Code agents — hallucination guard, scope lock, confirmation gate, rollback shield, bias firewall, and context validator. Each firewall is a standalone skill with enforcement scripts.
 
 ### Backend & Architecture
 
 - [backend-architect](./backend-architect) - Backend architecture patterns, API design, database schemas, and system design.
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
+- [jarvis-orb](https://github.com/TheStack-ai/jarvis-orb) - Persistent memory MCP server with 4-tier memory architecture (episodic, semantic, project, procedural) and a 3D brain visualizer for inspecting agent memory state.
 
 ### DevOps & Performance
 
@@ -131,6 +133,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [audit-project](./audit-project) - Full project audit for code quality, dependencies, security, and best practices.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
+- [ur-dashboard](https://github.com/TheStack-ai/ur-dashboard) - Real-time monitoring dashboard for Claude Code agent sessions. Tracks active agents, task progress, token usage, and system health with a web-based UI.
+- [mrstack](https://github.com/TheStack-ai/mrstack) - Claude Code + Telegram bot that runs as a 24/7 daemon. Send tasks via Telegram, get results back with full conversation context and persistent sessions.
 
 ### Documentation & Security
 
