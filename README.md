@@ -136,6 +136,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
+- [operant-mcp](https://github.com/operantlabs/operant-mcp) - Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing. MIT licensed.
 
 ### Developer Productivity
 
