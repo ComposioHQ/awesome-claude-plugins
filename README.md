@@ -124,6 +124,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [backend-architect](./backend-architect) - Backend architecture patterns, API design, database schemas, and system design.
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
+- [OraClaw](https://github.com/Whatsonyourmind/oraclaw) - Decision intelligence MCP server for AI agents. 19 algorithms (Monte Carlo, Bayesian inference, genetic optimization, Q-learning), 12 MCP tools, sub-25ms latency, zero LLM cost. Install: `npx -y @oraclaw/mcp-server`.
 
 ### DevOps & Performance
 
