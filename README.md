@@ -86,6 +86,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 - [License](#license)
 
 ## What Are Claude Plugins?
+- [skill-taxonomy](https://github.com/SeeleAI/skill-taxonomy) - Structured taxonomy for AI agent skills: discovery, classification and routing across multi-agent workflows.
 
 Claude Plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and skills. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
 
