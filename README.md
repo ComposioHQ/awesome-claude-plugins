@@ -80,6 +80,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
+  - [Companion & Personality](#companion--personality)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Resources](#resources)
@@ -142,6 +143,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
+
+### Companion & Personality
+
+- [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Give the Claude Code companion a personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
 
 ### Image Generation
 
