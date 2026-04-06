@@ -89,6 +89,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 
 Claude Plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and skills. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 specialized Claude Code agent system prompts covering orchestration, security auditing, code review, trading, and multi-agent delegation. MIT licensed.
 ## Plugins
 
 ### Integrations
