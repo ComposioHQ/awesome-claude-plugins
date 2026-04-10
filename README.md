@@ -144,6 +144,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
+- [AuraKit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill with 33 modes, 6-layer security, 23 hooks, 8 languages, 75% token savings. Cross-platform: Codex, Cursor, Manus, Windsurf.
 
 ### Image Generation
 
