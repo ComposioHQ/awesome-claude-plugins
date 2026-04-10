@@ -155,6 +155,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Companion & Personality
 
 - [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Enhance Claude Code's `/buddy` companion with personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
+- [codachi](https://github.com/vincent-k2026/codachi) - Tamagotchi pet in your statusline that grows with context usage and reacts to what Claude is doing (tests, builds, git ops) with 850+ mood messages. Also tracks burn rate, predicts time until context is full, and persists a relationship across sessions. `npx codachi init`.
 
 ### Image Generation
 
