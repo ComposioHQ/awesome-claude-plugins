@@ -136,6 +136,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
+- [ShellWard](https://github.com/jnMetaCode/shellward) ([npm](https://www.npmjs.com/package/shellward)) - First bilingual (EN/ZH) security plugin — 8 defense layers, Chinese PII detection (ID card/phone/bank card), 26 injection rules, remote CVE vulnerability database, data exfiltration prevention. Zero dependencies.
 
 ### Developer Productivity
 
