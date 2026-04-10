@@ -114,6 +114,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Code Quality & Testing
 
+- [agentic-peer-review](https://github.com/gideonshaked/agentic-peer-review) - Spawns an external AI reviewer (Claude, Codex, or Gemini), fixes the findings, and repeats until clean. Supports modular checks, worktree isolation, and structured change logs.
 - [code-review](./code-review) - Comprehensive code review with best practices, patterns, and improvement suggestions.
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
