@@ -1,0 +1,36 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "description": "Hardstop Pre-Execution Verification",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${CLAUDE_PLUGIN_ROOT}/hooks/pre_tool_use.py"
+          }
+        ]
+      },
+      {
+        "matcher": "PowerShell",
+        "description": "Hardstop Pre-Execution Verification",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${CLAUDE_PLUGIN_ROOT}/hooks/pre_tool_use.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "description": "Hardstop Secrets Protection",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${CLAUDE_PLUGIN_ROOT}/hooks/pre_read.py"
+          }
+        ]
+      }
+    ]
+  }
+}

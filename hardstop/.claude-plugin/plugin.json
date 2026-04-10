@@ -1,0 +1,25 @@
+{
+  "name": "hs",
+  "version": "1.3.6",
+  "description": "Pre-execution safety layer that blocks dangerous shell commands and credential file reads using pattern matching + LLM analysis. Fail-closed design.",
+  "author": {
+    "name": "Francesco Marinoni Moretto",
+    "email": "contact@clarity-gate.org"
+  },
+  "homepage": "https://github.com/frmoretto/hardstop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frmoretto/hardstop.git"
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "safety",
+    "security",
+    "shell",
+    "commands",
+    "protection",
+    "guardrails",
+    "pre-execution",
+    "fail-closed"
+  ]
+}
