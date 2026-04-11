@@ -95,6 +95,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [toprank](https://github.com/nowork-studio/toprank) - SEO and Google Ads plugin. Connects Claude Code to Google Search Console, PageSpeed Insights, and Google Ads API. 9 skills: audits traffic and wasted ad spend, rewrites meta tags, generates JSON-LD schema markup, pushes fixes to WordPress/Strapi/Contentful/Ghost. MIT, 100+ stars.
 
 ### Frontend & Design
 
