@@ -86,6 +86,9 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 - [Resources](#resources)
 - [License](#license)
 
+
+**[qa-orchestra](https://github.com/Anasss/qa-orchestra)** - Multi-agent QA toolkit with 10 specialized agents covering the full QA lifecycle — orchestrator, environment-manager, functional-reviewer, test-scenario-designer, browser-validator, automation-writer, manual-validator, bug-reporter, release-analyzer, and smart-test-selector. Stack-agnostic with output chaining and live browser validation via Chrome MCP.
+
 ## What Are Claude Plugins?
 
 Claude Plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and skills. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
