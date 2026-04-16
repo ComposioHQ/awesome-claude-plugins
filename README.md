@@ -104,7 +104,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [canvas-design](./canvas-design) - Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters and static pieces.
 - [senior-frontend](./senior-frontend) - React/Next.js/TypeScript development patterns with bundle analysis, component generation, and accessibility best practices.
 - [frontend-developer](./frontend-developer) - Frontend development specialist agent for building modern web interfaces.
-- [StyleSeed](https://github.com/bitjaru/styleseed) - Design engine for Claude Code and Cursor. 11 slash-command skills (`ss-component`, `ss-page`, `ss-pattern`, `ss-a11y`, `ss-audit`, `ss-review`, `ss-lint`, etc.) with 69 design rules, 48 shadcn-style React components, and swappable brand skins (Toss, Stripe, Linear, Vercel, Notion) on Tailwind CSS v4 + Radix UI.
+- [StyleSeed](https://github.com/bitjaru/styleseed) - Claude Code plugin: 11 design-rule slash commands with 48 React components.
 
 ### Git & Version Control
 
