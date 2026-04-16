@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Integrations
 
+- [AI Dev Jobs](https://aidevboard.com) - AI/ML job board with 5,300+ positions and 4 MCP tools: search jobs, get job details, list companies, and get stats. Install: `claude mcp add --transport http aidevjobs https://aidevboard.com/mcp`
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
 
 ### Frontend & Design
