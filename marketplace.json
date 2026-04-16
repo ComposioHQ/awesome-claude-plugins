@@ -171,6 +171,13 @@
       "description": "Analyze coding patterns and get personalized learning resources",
       "author": "Composio",
       "tags": ["productivity", "learning", "growth", "analytics"]
+    },
+    {
+      "name": "swarmvault",
+      "category": "productivity",
+      "description": "Local-first RAG knowledge vault with MCP server, knowledge graph, and hybrid SQLite FTS plus embeddings",
+      "author": "SwarmClaw AI",
+      "tags": ["rag", "knowledge-base", "wiki", "graph", "local-first", "mcp", "markdown", "embeddings"]
     }
   ],
   "categories": [

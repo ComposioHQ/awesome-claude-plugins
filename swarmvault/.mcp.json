@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "swarmvault": {
+      "command": "npx",
+      "args": ["-y", "@swarmvaultai/cli", "mcp"]
+    }
+  }
+}
