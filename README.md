@@ -95,6 +95,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [Not Human Search](https://nothumansearch.ai) - Search engine for AI agent-ready sites. 8,600+ indexed sites with 6 MCP tools: search agents, get site details, stats, submit sites, register monitors, and verify MCP endpoints. Install: `claude mcp add --transport http nothumansearch https://nothumansearch.ai/mcp`
 
 ### Frontend & Design
 
