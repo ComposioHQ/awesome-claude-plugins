@@ -127,6 +127,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [reef](https://github.com/eunji-jessi-jung/reef) - Structured knowledge wiki generator for codebases. Auto-discovers services, APIs, schemas, and cross-system contracts, then deepens through guided Q&A. 12 skills, Obsidian-native, local-first. ([Demo](https://github.com/eunji-jessi-jung/supabase-reef))
 
 ### DevOps & Performance
 
