@@ -155,6 +155,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Companion & Personality
 
 - [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Enhance Claude Code's `/buddy` companion with personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
+- [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio plugin for Claude Code with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction. Adds `say`, `ask`, and `listen` pipes for voice-first workflows.
 
 ### Image Generation
 
