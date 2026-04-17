@@ -140,9 +140,11 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [skillfortify](https://github.com/qualixar/skillfortify) - Formal verification scanner for AI agent skills. 100% precision on 540-skill benchmark. Supports 22 frameworks (Claude, MCP, CrewAI, AutoGen, LangChain). ASBOM generation. `pip install skillfortify && skillfortify scan`. arXiv:2603.00195.
 
 ### Developer Productivity
 
+- [superlocalmemory](https://github.com/qualixar/superlocalmemory) - Persistent memory for Claude Code sessions. Zero cloud, local-first. 6-channel retrieval (semantic, BM25, temporal, entity graph). Beats Mem0 on LoCoMo (74.8% vs 64.2%). 16K+ monthly downloads. `npx superlocalmemory`. Backed by 3 arXiv papers.
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
