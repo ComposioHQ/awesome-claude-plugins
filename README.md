@@ -70,6 +70,8 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 
 ## Contents
 
+- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 - [What Are Claude Plugins?](#what-are-claude-plugins)
 - [Plugins](#plugins)
   - [Integrations](#integrations)
