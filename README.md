@@ -124,6 +124,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Backend & Architecture
 
 - [backend-architect](./backend-architect) - Backend architecture patterns, API design, database schemas, and system design.
+- [claude-skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS with 58 submodules and 9 agents. Ships complete products from one-line prompts on Cloudflare Workers with Angular, Hono, Stripe, SEO, accessibility, and visual QA. Install: `claude plugin install megabytespace/claude-skills`.
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
