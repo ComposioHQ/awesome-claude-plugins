@@ -151,6 +151,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [onboard](https://github.com/ApurvBazari/claude-plugins) - Analyze existing codebases and generate tailored Claude tooling: CLAUDE.md, path-scoped rules, skills, agents, hooks, and CI/CD. Includes `/onboard:evolve` for drift detection and plugin-aware generation that skips agents whose capabilities are already covered by installed plugins.
+- [forge](https://github.com/ApurvBazari/claude-plugins) - Greenfield project scaffolder for Claude Code. 4-phase wizard (context → scaffold → AI tooling → lifecycle), stack-agnostic via web search, walking-skeleton mode for complex architectures, and session resume. Delegates tooling generation to the companion `onboard` plugin.
+- [notify](https://github.com/ApurvBazari/claude-plugins) - Cross-platform system notifications for Claude Code hooks. macOS (terminal-notifier) and Linux (notify-send) with duration filtering, git context extraction, and contextual message generation.
 
 ### Companion & Personality
 
