@@ -1,3 +1,8 @@
+---
+description: "Reference: Multi-Agent Review (Phase 2) for /audit-project — agent coordination, finding consolidation, and framework-specific patterns. Not a standalone command."
+allowed-tools: []
+---
+
 # Phase 2: Multi-Agent Review - Reference
 
 This file contains detailed agent coordination for `/audit-project`.

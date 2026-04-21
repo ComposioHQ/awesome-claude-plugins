@@ -1,3 +1,8 @@
+---
+description: "Reference: GitHub Issue Creation (Phase 8) for /audit-project — creating issues for deferred findings and TECHNICAL_DEBT.md cleanup. Not a standalone command."
+allowed-tools: []
+---
+
 # Phase 8: GitHub Issue Creation - Reference
 
 This file contains GitHub integration for `/audit-project`.
