@@ -3,6 +3,7 @@ description: Streamlines pull request creation by handling the entire workflow: 
 author: toyamarinyon
 author-url: https://github.com/toyamarinyon
 version: 1.0.0
+allowed-tools: Bash(git:*), Bash(gh:*), Bash(biome:*), Read, Glob
 ---
 
 # Create Pull Request Command
