@@ -10,17 +10,21 @@ import random
 import sys
 from datetime import datetime
 
-# Debug log file
-DEBUG_LOG_FILE = "/tmp/security-warnings-log.txt"
+# Debug log file — gated behind env var to avoid writing by default
+_debug_log_enabled = os.environ.get("SECURITY_REMINDER_DEBUG", "0") == "1"
+DEBUG_LOG_FILE = os.path.expanduser("~/.claude/security-warnings-log.txt")
 
 
 def debug_log(message):
-    """Append debug message to log file with timestamp."""
+    """Append debug message to log file with timestamp (only when SECURITY_REMINDER_DEBUG=1)."""
+    if not _debug_log_enabled:
+        return
     try:
+        os.makedirs(os.path.dirname(DEBUG_LOG_FILE), exist_ok=True)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
         with open(DEBUG_LOG_FILE, "a") as f:
             f.write(f"[{timestamp}] {message}\n")
-    except Exception as e:
+    except Exception:
         # Silently ignore logging errors to avoid disrupting the hook
         pass
 
