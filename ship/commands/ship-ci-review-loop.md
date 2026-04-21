@@ -1,3 +1,8 @@
+---
+description: "Reference: CI & Review Monitor Loop (Phase 4) for /ship — monitor loop algorithm, PR feedback handling, and comment resolution. Not a standalone command."
+allowed-tools: []
+---
+
 <ci-review-loop>
 # Phase 4: CI & Review Monitor Loop - Reference
 

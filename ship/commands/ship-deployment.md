@@ -1,3 +1,8 @@
+---
+description: "Reference: Deploy & Validate phases (7-10) for /ship — platform-specific deployment monitoring and rollback. Not a standalone command."
+allowed-tools: []
+---
+
 # Phases 7-10: Deploy & Validate - Reference
 
 This file contains platform-specific deployment and validation for `/ship`.
