@@ -1,0 +1,9 @@
+{
+  "name": "teenybase",
+  "description": "Backend-as-a-service on Cloudflare Workers. Define tables, auth, row-level security, and actions in a single TypeScript config file. Generates REST API, auto-migrations, OpenAPI docs, and an admin panel.",
+  "version": "1.0.0",
+  "author": {
+    "name": "teenybase"
+  },
+  "homepage": "https://github.com/teenybase/teenybase"
+}

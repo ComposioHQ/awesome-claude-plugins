@@ -138,6 +138,13 @@
       "tags": ["agent-sdk", "agents", "development"]
     },
     {
+      "name": "teenybase",
+      "category": "backend",
+      "description": "Backend-as-a-service on Cloudflare Workers with TypeScript config — REST API, auth, row-level security, auto-migrations, OpenAPI docs, and admin panel",
+      "author": "teenybase",
+      "tags": ["backend", "cloudflare", "workers", "d1", "api", "auth", "serverless"]
+    },
+    {
       "name": "perf",
       "category": "devops",
       "description": "Performance analysis and optimization",
