@@ -127,7 +127,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
-- [teenybase](./teenybase) - Backend-as-a-service on Cloudflare Workers. Define tables, auth, row-level security, and actions in a single TypeScript config — generates REST API, auto-migrations, OpenAPI docs, and an admin panel.
+- [teenybase](https://github.com/teenybase/teenybase) - Backend-as-a-service on Cloudflare Workers. Define tables, auth, row-level security, and actions in a single TypeScript config — generates REST API, auto-migrations, OpenAPI docs, and an admin panel.
 
 ### DevOps & Performance
 
