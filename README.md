@@ -95,6 +95,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [bitcoin-companies-skills](https://github.com/sbounmy/bitcoin-companies-skills) - Query Bitcoin company treasury data. Search by name or domain, browse the leaderboard with filters (category, country, tier), and generate aggregate reports. Free API, no auth required.
 
 ### Frontend & Design
 
