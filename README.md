@@ -95,6 +95,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [kicad-happy](https://github.com/aklofas/kicad-happy) - AI-powered KiCad electronics design review — 11 skills for schematic analysis, PCB layout checks, EMC pre-compliance, component sourcing, BOM management, and fab prep.
 
 ### Frontend & Design
 
