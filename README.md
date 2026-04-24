@@ -141,6 +141,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
 
+- [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) - AES-256-GCM + Argon2id encrypted local vault. Resolves `{{PLACEHOLDER}}` secrets at runtime so API keys never appear in Claude prompts, context, or logs.
+
 ### Developer Productivity
 
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
