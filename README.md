@@ -143,6 +143,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Developer Productivity
 
+- [Mem-Forever](https://github.com/ilang-ai/Mem-Forever) - Persistent memory across sessions and tools. Auto-generates a portable profile from conversation, saves decisions and lessons to `.ilang/`, applies preferences in every future session. Works across Claude Code, Cursor, Codex, Copilot, and Gemini. Template repo — fork once, remember forever.
+- [Imprint](https://github.com/ilang-ai/Imprint) - Your habits, imprinted on AI. One plugin replaces eleven skills: memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, SEO, and copywriting. Learns how you work and applies it across every session.
+- [AutoCode](https://github.com/ilang-ai/AutoCode) - You say it, AutoCode ships it. 47 skills covering understanding, planning, building, quality, debugging, saving, deployment, progress, and learning. Code to deployment in one session. I-Lang v3.0 powered.
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
