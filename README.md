@@ -136,6 +136,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
+- [arn-infra](https://github.com/AppsVortex/arness/tree/main/plugins/arn-infra) - Infrastructure provisioning with 25 skills for OpenTofu IaC, containerization, CI/CD, secrets, monitoring, Checkov/Trivy audits, and Infracost analysis.
 
 ### Documentation & Security
 
@@ -153,6 +154,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [arn-spark](https://github.com/AppsVortex/arness/tree/main/plugins/arn-spark) - Greenfield exploration with 28 skills covering product discovery, brand naming, architecture vision, use cases, scaffolding, and static and clickable prototypes.
+- [arn-code](https://github.com/AppsVortex/arness/tree/main/plugins/arn-code) - Development pipeline with 35 skills, task-executor + task-reviewer agents per task with self-healing test loops, and 3 ceremony tiers.
 
 ### Companion & Personality
 
