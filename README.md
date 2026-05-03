@@ -146,6 +146,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
+- [claude-forge](https://github.com/sangrokjung/claude-forge) - A complete plugin extending Claude Code with 11 custom agents, 33 commands, 24 skills, 15 hooks (covering 21 lifecycle events), 9 rules, and 4 MCP servers (playwright, context7, jina-reader, chrome-devtools@0.23.0). Plugin manifest follows the official Claude Code plugin spec exactly. Install via `/plugin marketplace add sangrokjung/claude-forge` then `/plugin install claude-forge`. MIT.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
