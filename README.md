@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Integrations
 
+- [claude-team-toolkit](https://github.com/tuannv14/claude-team-toolkit) - Team-ready skill pack with 15 multi-account integrations for Rails + React Native team workflows. Bundles Trello, Azure DevOps (Services + self-hosted Server), Heroku, Sentry, Slack, Firebase, Shopify, PostgreSQL, RSpec, Rails-security, k6, Maestro, Fastlane, React Native, xlsx-testcases. INI profile system, audit logging, security-first defaults, ~74% token savings on multi-step sessions.
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
 
