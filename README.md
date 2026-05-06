@@ -128,6 +128,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [sun-tzu-strategist](https://github.com/Layton2617/sun-tzu-strategist) - Art of War strategic reasoning engine for real business & tech decisions. 5-step analysis framework, 3 interaction modes (consultation/war room/dialogue), bilingual Chinese/English. Not a quote generator — a reasoning partner.
 
 ### DevOps & Performance
 
@@ -136,12 +137,14 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
+- [cloud-bridge](https://github.com/Layton2617/cloud-bridge) - Multi-cloud DevOps from your terminal — check deployment status across Vercel, Cloudflare, AWS, Fly.io, and Netlify. Claude Code Skill included.
 
 ### Documentation & Security
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [shield-scan](https://github.com/Layton2617/shield-scan) - AI-powered security scanner with SAST analysis, secret detection, and dependency vulnerability scanning. Claude Code Skill + standalone Bash scanner.
 
 ### Developer Productivity
 
@@ -153,6 +156,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [devpilot-tui](https://github.com/Layton2617/devpilot-tui) - Multi-agent context handoff between Claude Code, Gemini CLI, and Codex. Session viewer + handoff document generator for seamless AI tool switching.
+- [code-sensei](https://github.com/Layton2617/code-sensei) - Transforms any codebase into structured learning courses with exercises. Includes standalone analyzer and Claude Code Skill for interactive code education.
 
 ### Companion & Personality
 
