@@ -145,6 +145,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Developer Productivity
 
+- [CTX](https://github.com/jaytoone/CTX) - Cross-session memory plugin for Claude Code. Injects G1 (git decision timeline), G2 (BM25 code/doc search), and CM (chat memory vault) before each prompt. <1ms, no LLM calls, fully local. Memory recall 0.88 vs 0.00 baseline (MAB N=50). Install: `/plugin install ctx@jaytoone`
+
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
