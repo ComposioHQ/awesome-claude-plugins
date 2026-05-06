@@ -158,6 +158,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Enhance Claude Code's `/buddy` companion with personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
 
+### Gamification
+
+- [@hackersbaby/plugin](https://www.npmjs.com/package/@hackersbaby/plugin) - Global leaderboard and scoring system for Claude Code. Points for sessions, commits, deployments. Streaks up to 3x multiplier. [hackers.baby](https://hackers.baby)
+
 ### Image Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
