@@ -128,6 +128,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [SwarmOps](https://github.com/h4ckm1n-dev/SwarmOps) - Hardened fork of ruflo/claude-flow for global `~/.claude` installs. 46× faster `memory_search`, semantic memory via mxbai-embed-large, AIDefence wired into hooks, 0 npm-audit highs. Discovers and routes to your installed `~/.claude/{agents,skills,commands,plugins}/` registry.
 
 ### DevOps & Performance
 
