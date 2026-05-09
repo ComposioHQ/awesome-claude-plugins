@@ -153,6 +153,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - Reasoning Harness with 4 MCP tools (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`) and matching SKILL.md files for autonomous routing in Claude Code. Each call returns an engineered cognitive scaffold (failure pattern, executable procedure, suppression vectors, falsification test) that addresses attention decay, sycophantic collapse, and hallucination drift. 679 retrievable abilities across the four modes; ships an Anthropic plugin manifest in `.claude-plugin/`. Free tier 100 calls. ([Website](https://ejentum.com))
 
 ### Companion & Personality
 
