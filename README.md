@@ -91,6 +91,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 Claude Plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and skills. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
 
 ## Plugins
+- [Qonspekt](https://github.com/Qonspekt/qonspekt) - Article to atomic Obsidian notes via Claude AI. BYOK browser tool. [Live](https://qonspekt.github.io/qonspekt/)
 
 ### Integrations
 
