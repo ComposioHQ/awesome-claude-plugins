@@ -1,0 +1,20 @@
+{
+  "name": "thoth",
+  "version": "0.2.0",
+  "description": "Dashboard-centric Agent Project OS for auditable AI execution, persistent project state, and human-visible workflow orchestration.",
+  "author": {
+    "name": "SeeleAI",
+    "url": "https://github.com/SeeleAI"
+  },
+  "homepage": "https://github.com/SeeleAI/Thoth",
+  "repository": "https://github.com/SeeleAI/Thoth",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "project-management",
+    "dashboard",
+    "autonomous",
+    "audit",
+    "execution"
+  ]
+}

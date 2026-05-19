@@ -1,0 +1,4 @@
+interface:
+  display_name: "thoth"
+  short_description: "Official Codex public surface for the Thoth authority runtime."
+  default_prompt: "Use $thoth as the single public entrypoint for Thoth and operate the shared .thoth runtime through $thoth <command>."
