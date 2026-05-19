@@ -95,6 +95,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [HeadlessTracker](https://github.com/tamasPetki/HeadlessTracker) - Headless crypto portfolio MCP server. Track balances across Bybit, Binance, MetaMask, Solana, and Polymarket — no dashboard, AI renders on demand.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
 
 ### Frontend & Design
