@@ -145,6 +145,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Developer Productivity
 
+- [quill](https://github.com/YG3-ai/quill) - Two AIs in conversation — one does the work, one gives perspective. Four skills: `consult` (stuck/frustrated), `perspective` (exploring), `assumptions` (surface what the AI decided silently), `mosaic` (parallel work + mutual review for high-stakes decisions). Free on existing Claude Pro + ChatGPT Plus subscriptions — no API key needed. Research-tested: 4/4 wins on decisions-under-tension vs single AI. `pip install quill-mcp` · By [@YG3-ai](https://github.com/YG3-ai)
+
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.

@@ -1,0 +1,11 @@
+{
+  "name": "quill",
+  "description": "Two AIs in conversation — one does the work, the other gives perspective. Four thinking-partner skills: consult, perspective, assumptions, mosaic. Research-tested: 4/4 wins on decisions vs single AI.",
+  "version": "0.2.2",
+  "author": {
+    "name": "YG3",
+    "url": "https://yg3.ai"
+  },
+  "repository": "https://github.com/YG3-ai/quill",
+  "install": "pip install quill-mcp"
+}
