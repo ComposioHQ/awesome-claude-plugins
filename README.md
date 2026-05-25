@@ -142,6 +142,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [authsome](https://github.com/agentrhq/authsome) - Local credential broker for Claude Code. Log in once via OAuth2 or API key, encrypted vault stores credentials, local proxy injects them at request time so Claude never touches raw secrets. 45 providers bundled. Ships a `.claude-plugin/marketplace.json` at the repo root for direct `/plugin marketplace add agentrhq/authsome` install.
 
 ### Developer Productivity
 
