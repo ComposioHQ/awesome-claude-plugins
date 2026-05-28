@@ -128,6 +128,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [hermes-supercode-skills](https://github.com/mturac/hermes-supercode-skills) - 13 production-grade Claude Code skills: db-whisperer, auth-architect, obs-guardian, deploy-ninja, quantum-debugger, security-sentinel, api-sculptor + 6 more. Install: `npx hermes-skills install`
 
 ### DevOps & Performance
 
