@@ -1,0 +1,20 @@
+{
+  "name": "cove",
+  "version": "0.1.0",
+  "description": "Chain-of-Verification (CoVe) validation for any claim, output, plan, or code change. Provides the /cove command and an auto-triggering skill that generates independent verification questions and answers them without bias from the original draft, then synthesizes a verified result.",
+  "author": {
+    "name": "Ryan Foster",
+    "url": "https://github.com/f0ster"
+  },
+  "homepage": "https://github.com/f0ster/agentic-tools/tree/main/plugins/cove",
+  "license": "MIT",
+  "keywords": [
+    "cove",
+    "chain-of-verification",
+    "verification",
+    "validation",
+    "fact-checking",
+    "quality",
+    "hallucination"
+  ]
+}

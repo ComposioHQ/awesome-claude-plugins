@@ -117,6 +117,13 @@
       "tags": ["debugging", "bug-fix", "troubleshooting"]
     },
     {
+      "name": "cove",
+      "category": "quality",
+      "description": "Chain-of-Verification (CoVe) validation that fact-checks claims, plans, and code changes before you trust them",
+      "author": "f0ster",
+      "tags": ["verification", "validation", "fact-checking", "cove", "quality"]
+    },
+    {
       "name": "backend-architect",
       "category": "backend",
       "description": "Backend architecture patterns and system design",
