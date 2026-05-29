@@ -1,7 +1,7 @@
 {
   "name": "cove",
-  "version": "0.1.0",
-  "description": "Chain-of-Verification (CoVe) validation for any claim, output, plan, or code change. Provides the /cove command and an auto-triggering skill that generates independent verification questions and answers them without bias from the original draft, then synthesizes a verified result.",
+  "version": "0.1.1",
+  "description": "Chain-of-Verification (CoVe) validation for any claim, output, plan, or code change. Invoke directly with /cove or let the skill trigger automatically; it generates independent verification questions and answers them without bias from the original draft, then synthesizes a verified result.",
   "author": {
     "name": "Ryan Foster",
     "url": "https://github.com/f0ster"
