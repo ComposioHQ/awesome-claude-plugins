@@ -90,7 +90,8 @@ function validateFileReferences(content, projectPath) {
     }
 
     // Resolve path and validate it stays within project root (prevent path traversal)
-    const fullPath = path.resolve(projectPath, ref);
+    const requestedPath = path.resolve(projectPath, ref);
+    const fullPath = fs.realpathSync(requestedPath);
     if (fullPath.startsWith(resolvedProjectPath) && fs.existsSync(fullPath)) {
       valid.push(ref);
     } else {

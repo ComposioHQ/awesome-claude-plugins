@@ -35,13 +35,15 @@ function isPathSafe(filePath, basePath) {
  * @returns {string|null} File contents or null
  */
 function safeReadFile(filePath, basePath) {
-  const fullPath = path.resolve(basePath, filePath);
-  if (!isPathSafe(filePath, basePath)) {
+  const resolvedBase = path.resolve(basePath);
+  const requestedPath = path.resolve(basePath, filePath);
+  const fullPath = fs.realpathSync(requestedPath);
+  if (!fullPath.startsWith(resolvedBase)) {
     return null;
   }
   try {
     return fs.readFileSync(fullPath, 'utf8');
-  } catch {
+  } catch (err) {
     return null;
   }
 }
