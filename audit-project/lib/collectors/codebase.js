@@ -41,8 +41,9 @@ const SOURCE_EXTENSIONS = {
  * Safe file read
  */
 function safeReadFile(filePath, basePath) {
-  const fullPath = path.resolve(basePath, filePath);
   const resolvedBase = path.resolve(basePath);
+  const requestedPath = path.resolve(basePath, filePath);
+  const fullPath = fs.realpathSync(requestedPath);
   if (!fullPath.startsWith(resolvedBase)) {
     return null;
   }
