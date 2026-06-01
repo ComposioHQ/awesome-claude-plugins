@@ -96,6 +96,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [claude-bridge](https://github.com/Stigmavlc/claude-bridge) - Claude Code drives a browser itself for web tasks: your logged-in Chrome via the Claude in Chrome extension (paid plan) for account/dashboard work, or a bundled headless Chrome DevTools MCP / Playwright for public lookups. Autonomous, with prompt-injection hardening.
 
 ### Frontend & Design
 
