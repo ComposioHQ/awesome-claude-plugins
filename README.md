@@ -113,6 +113,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [pr-review](./pr-review) - Comprehensive PR reviews with detailed feedback on code quality, security, and best practices.
 - [changelog-generator](./changelog-generator) - Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.
 - [ship](./ship) - Complete PR workflow from commit to production. Lint, test, review, and deploy.
+- [worktree-warden](https://github.com/mesat/worktree-warden) - Lets multiple Claude Code sessions share one repo without clobbering each other. A PreToolUse hook redirects branch-switching commands (`git checkout`/`switch`, `gh pr checkout`) into git worktrees — but only when another live session is actually present, so there's zero overhead when you work solo.
 
 ### Code Quality & Testing
 
