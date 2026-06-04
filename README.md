@@ -153,6 +153,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [Diffmode Growth Tactics](https://github.com/acogood/diffmode_free) - Runs a growth-strategy research pipeline from a product URL: a competitor read, a buyer jobs-to-be-done map, and 7-9 unconventional acquisition tactics built for a founder's constraints. Mines growth mechanisms from fresh case studies and fuses 2-3 per tactic; every stage is reviewer-gated. Free, Claude Code + Codex, Apache-2.0, no account/API key. ([Website](https://diffmode.app/free-plugin))
 
 ### Companion & Personality
 
