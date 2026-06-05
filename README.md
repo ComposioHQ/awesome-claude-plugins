@@ -153,6 +153,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [urdesigner](https://github.com/alisuleymantopuz/urdesigner) - Code-grounded product design and estimation. Reads your codebase before speccing or estimating — never invents. Runs `/spec`, `/epic`, `/story`, `/estimate` as a pipeline using senior engineering personas. Saves all artifacts to dated `docs/` files. Works with Claude Code, Cursor, Codex, and Gemini CLI.
 
 ### Companion & Personality
 
