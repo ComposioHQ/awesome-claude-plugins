@@ -142,6 +142,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana agent trust scoring MCP. Free preflight checks score any Solana wallet for agent trustworthiness; paid calls via x402 (HTTP 402 + USDC) return signed V5 trust receipts. Remote MCP at `https://intel.twzrd.xyz/mcp`. Pairs with security workflows to verify agent counterparties before autonomous on-chain transactions.
 
 ### Developer Productivity
 
