@@ -96,6 +96,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [kreuzberg](https://github.com/kreuzberg-dev/plugins/tree/main/plugins/kreuzberg) - Local document extraction. Text, tables, metadata, and images from 91+ formats (PDF, Office, images with OCR, HTML, email, archives, academic). MCP server exposes the full extraction surface to your agent.
+- [kreuzcrawl](https://github.com/kreuzberg-dev/plugins/tree/main/plugins/kreuzcrawl) - Web crawling and scraping with HTML→Markdown conversion and headless-Chrome fallback. MCP server exposes scrape, crawl, map, and interact tools.
+- [kreuzberg-cloud](https://github.com/kreuzberg-dev/plugins/tree/main/plugins/kreuzberg-cloud) - Managed extraction via api.kreuzberg.dev. Skills cover REST API flows (extract, jobs, presigned uploads, usage); MCP server arrives in v0.2.0.
 
 ### Frontend & Design
 
