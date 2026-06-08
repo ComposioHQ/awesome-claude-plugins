@@ -1,0 +1,11 @@
+{
+  "name": "architect-builder",
+  "description": "A three-phase AI development workflow: plan, execute, and review with explicit handoff files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "bubble0462"
+  },
+  "homepage": "https://github.com/bubble0462/Architect-Builder",
+  "repository": "https://github.com/bubble0462/Architect-Builder.git",
+  "license": "MIT"
+}
