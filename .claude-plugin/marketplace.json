@@ -249,6 +249,16 @@
       "author": {
         "name": "Composio"
       }
+    },
+    {
+      "name": "architect-builder",
+      "source": "./architect-builder",
+      "description": "Three-phase AI development workflow with explicit planning, execution, and review handoff files",
+      "category": "productivity",
+      "tags": ["workflow", "planning", "code-review", "skills", "codex"],
+      "author": {
+        "name": "bubble0462"
+      }
     }
   ]
 }

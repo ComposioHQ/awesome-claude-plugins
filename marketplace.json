@@ -171,6 +171,13 @@
       "description": "Analyze coding patterns and get personalized learning resources",
       "author": "Composio",
       "tags": ["productivity", "learning", "growth", "analytics"]
+    },
+    {
+      "name": "architect-builder",
+      "category": "productivity",
+      "description": "Three-phase AI development workflow with explicit planning, execution, and review handoff files",
+      "author": "bubble0462",
+      "tags": ["workflow", "planning", "code-review", "skills", "codex"]
     }
   ],
   "categories": [
