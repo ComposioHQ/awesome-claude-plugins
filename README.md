@@ -81,6 +81,8 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
   - [Companion & Personality](#companion--personality)
+  - [Image Generation](#image-generation)
+  - [Video Generation](#video-generation)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Resources](#resources)
@@ -161,6 +163,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Image Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+
+### Video Generation
+
+- [Poppify](https://github.com/Poppify/poppify-claude-plugin) - MCP server + Claude Code plugin for photo to TikTok, Instagram Reels, YouTube Shorts, and Facebook video. Upload 1–10 photos, get a captioned 15/30/60s reel with motion, library-matched music, and optional voiceover. 27 MCP tools + 4 skills + 3 slash commands. Recipe-driven composition (14 narrative frameworks), library-first audio. $0.06 base render, 50 free seeds on signup, no subscription. Built for SMBs and solo service providers.
 
 ## Getting Started
 
