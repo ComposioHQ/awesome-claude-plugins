@@ -121,6 +121,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [neuro-matrix](https://github.com/AlexShchuka/neuro-matrix) - Anti-hallucination harness for Claude Code: runtime invariants with a risk-weighted per-turn sampler, deterministic hooks (cycle-detector, approval gate, verification gate), four specialized agents (developer, analyzer, critic, epistemic-auditor), and a statistical evaluation harness.
 
 ### Backend & Architecture
 
