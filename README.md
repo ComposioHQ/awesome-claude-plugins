@@ -142,6 +142,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [keyward](https://github.com/AlbeMiglio/keyward) - Intercepts API keys pasted into chat through a UserPromptSubmit hook: saves them to chmod-600 files before the model sees them, blocks the original prompt, and auto-re-submits a sanitized reference. Regex detection for ~20 providers plus an optional gitleaks pass; cross-platform paste automation for macOS, Linux, and Windows.
 
 ### Developer Productivity
 
