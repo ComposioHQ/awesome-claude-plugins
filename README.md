@@ -43,6 +43,7 @@ A curated list of production-ready plugins for Claude Code to supercharge your d
 ## Quickstart: Connect Claude to 500+ Apps
 
 The **[connect-apps](./connect-apps)** plugin lets Claude perform real actions - send emails, create issues, post to Slack. It handles auth and connects to 500+ apps using Composio under the hood.
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
 
 ### 1. Clone & Run
 
