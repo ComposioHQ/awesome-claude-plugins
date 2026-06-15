@@ -135,6 +135,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [audit-project](./audit-project) - Full project audit for code quality, dependencies, security, and best practices.
 - [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
+- [ultracost](https://github.com/danielkremen818/ultracost) - Per-stage model routing for `ultracode` dynamic workflows. Pins an explicit model and effort on every `agent()` subagent stage, estimates cost before launch, and ships a static guard plus a PreToolUse gate that flag stages which would silently inherit the session's Opus model. Zero dependencies, MIT.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
 
 ### Documentation & Security
