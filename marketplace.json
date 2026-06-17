@@ -12,6 +12,13 @@
       "tags": ["integrations", "oauth", "gmail", "slack", "github", "notion"]
     },
     {
+      "name": "hookradar-creative-intelligence",
+      "category": "integrations",
+      "description": "Research competitor ads, organic videos, AI creative analysis, reports, and creative assets through HookRadar MCP",
+      "author": "HookRadar",
+      "tags": ["marketing", "creative-intelligence", "mcp", "meta-ads", "tiktok-ads", "organic-social"]
+    },
+    {
       "name": "frontend-design",
       "category": "frontend",
       "description": "Create distinctive, production-grade interfaces avoiding generic AI aesthetics",
