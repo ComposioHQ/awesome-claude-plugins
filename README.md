@@ -95,6 +95,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [gemini-for-claude-and-codex](https://github.com/freestyler-arb/gemini-for-claude-and-codex) - Delegate reasoning, code review, research, and prompt engineering to Google Gemini from Claude Code & Codex — billed to your Google AI Pro subscription (not agent tokens). 4 skills with auto-dispatch: `gemini-pro` (general delegation), `gemini-review` (adversarial review), `gemini-research` (deep context), `gemini-proxy` (auto prompt engineering). Install: `/plugin marketplace add freestyler-arb/gemini-for-claude-and-codex`.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
 
 ### Frontend & Design
