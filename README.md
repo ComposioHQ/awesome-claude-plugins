@@ -96,6 +96,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [ophis](https://github.com/ophis-fi/skills) - Gasless, MEV-protected onchain token swaps for AI agents across 11 EVM chains. An intent-based DEX (a CoW Protocol deployment) that is keyless and non-custodial; bundles the 12-tool Ophis MCP server and the ophis-swap workflow skill. Note: this is Ophis the DeFi DEX (ophis.fi), not the unrelated njayp/ophis Go library.
 
 ### Frontend & Design
 
