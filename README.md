@@ -136,6 +136,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
+- [cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge) - Claude Code [skill](https://github.com/abhinaykrupa/cowork-to-code-bridge/blob/main/skill/cowork-to-code-bridge/SKILL.md) + local daemon that lets a sandboxed Claude session (Cowork) run tasks on your real Mac/Linux machine — `git push`, `docker build`, the actual test suite, `brew`/`npm install`. Async file-based RPC over a shared bind-mounted directory (no inbound ports, no HTTPS tunnel), with per-task permission scoping, model-tier routing, and budget caps. Self-hosted, MIT.
 
 ### Documentation & Security
 
