@@ -91,6 +91,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
 Claude Plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and skills. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
 
 ## Plugins
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts for Claude Code: 4 structured Markdown templates + 5 skills (crm-everything, open-loops, watchers, morning-briefing, session-digest). Start every session context-full, not context-zero.
 
 ### Integrations
 
