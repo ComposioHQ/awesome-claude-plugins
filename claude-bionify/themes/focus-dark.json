@@ -1,0 +1,13 @@
+{
+  "name": "Focus Dark",
+  "base": "dark",
+  "overrides": {
+    "text": "#ABB2BF",
+    "claude": "#C678DD",
+    "subtle": "#4B5263",
+    "promptBorder": "#3E4452",
+    "error": "#E06C75",
+    "success": "#98C379",
+    "warning": "#D19A66"
+  }
+}

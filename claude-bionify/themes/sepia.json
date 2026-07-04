@@ -1,0 +1,13 @@
+{
+  "name": "Sepia",
+  "base": "light",
+  "overrides": {
+    "text": "#5C3C24",
+    "claude": "#B58900",
+    "subtle": "#8A7E72",
+    "promptBorder": "#E5D9C4",
+    "error": "#DC322F",
+    "success": "#859900",
+    "warning": "#CB4B16"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Gruvbox",
+  "base": "dark",
+  "overrides": {
+    "text": "#EBDBB2",
+    "claude": "#FABD2F",
+    "subtle": "#928374",
+    "promptBorder": "#3C3836",
+    "error": "#FB4934",
+    "success": "#B8BB26",
+    "warning": "#FE8019"
+  }
+}

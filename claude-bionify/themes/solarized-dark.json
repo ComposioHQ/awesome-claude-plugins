@@ -1,0 +1,13 @@
+{
+  "name": "Solarized Dark",
+  "base": "dark",
+  "overrides": {
+    "text": "#839496",
+    "claude": "#268BD2",
+    "subtle": "#586E75",
+    "promptBorder": "#073642",
+    "error": "#DC322F",
+    "success": "#859900",
+    "warning": "#CB4B16"
+  }
+}
