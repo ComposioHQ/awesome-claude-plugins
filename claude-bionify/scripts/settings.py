@@ -9,6 +9,7 @@ than across several modules.
 
 from collections.abc import Callable
 from dataclasses import dataclass
+import re
 from typing import NamedTuple
 
 DEFAULT_FIXATION = 0.5
@@ -19,6 +20,7 @@ DEFAULT_PROTECT_URLS = True
 DEFAULT_SKIP_HEADINGS = True
 BOUNDARIES = ("fraction", "syllable", "log")
 _TRUTHY = ("1", "true", "yes", "on", "enable", "enabled")
+_FALSY = ("0", "false", "no", "off", "disable", "disabled")
 
 
 class Style(NamedTuple):
@@ -47,10 +49,31 @@ def valid_boundary(value: str) -> bool:
 
 
 def as_bool(value: object) -> bool:
-    """Read an env string or JSON boolean as a bool."""
+    """Read an env string or JSON boolean as a bool, rejecting typos."""
     if isinstance(value, bool):
         return value
-    return str(value).strip().lower() in _TRUTHY
+    normalized = str(value).strip().lower()
+    if normalized in _TRUTHY:
+        return True
+    if normalized in _FALSY:
+        return False
+    raise ValueError(value)
+
+
+def parse_min_length(value: object) -> int:
+    """Read a whole-number minimum word length."""
+    if isinstance(value, bool):
+        raise ValueError(value)
+    if isinstance(value, int):
+        return clamp_min_length(value)
+    if isinstance(value, float):
+        if not value.is_integer():
+            raise ValueError(value)
+        return clamp_min_length(int(value))
+    text = str(value).strip()
+    if not re.fullmatch(r"[+-]?\d+", text):
+        raise ValueError(value)
+    return clamp_min_length(int(text))
 
 
 def _parse_boundary(value: str) -> str:
@@ -79,9 +102,9 @@ SETTINGS = (
         invalid=lambda v: f"'{v}' is not a number between 0.1 and 0.9",
     ),
     Setting(
-        "min_length", "min_word_length", ("minlen", "min_length"),
+        "min_length", "min_word_length", ("minlen",),
         DEFAULT_MIN_WORD_LENGTH,
-        parse=lambda v: clamp_min_length(int(float(v))),
+        parse=parse_min_length,
         render=lambda v: f"minlen={v}",
         invalid=lambda v: f"'{v}' is not a whole number",
     ),

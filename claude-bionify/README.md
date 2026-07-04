@@ -50,7 +50,7 @@ When you enable the plugin, Claude Code prompts for these (all optional):
 Change claude-bionify mid-session without a reload. The next reply reflects it instantly:
 
 - `/claude-bionify:toggle` · `/claude-bionify:on` · `/claude-bionify:off`
-- `/claude-bionify:set strength 0.7` · `/claude-bionify:set boundary syllable` · `set minlen 5` · `set acronyms off` · `set urls off` · `set headings off`
+- `/claude-bionify:set strength 0.7` · `/claude-bionify:set boundary syllable` · `/claude-bionify:set minlen 5` · `/claude-bionify:set acronyms off` · `/claude-bionify:set urls off` · `/claude-bionify:set headings off`
 - `/claude-bionify:status` · `/claude-bionify:reset`
 
 ## Themes

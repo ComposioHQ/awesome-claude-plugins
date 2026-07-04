@@ -33,11 +33,12 @@ _PROTECTED_PARTS = (
 )
 # Each rule below triggers only on a signal that prose lacks (a scheme, an `@`,
 # a token-anchored or multi-segment path, or a lowercase file extension), so
-# words like "and/or", "e.g.", or "3.14" are never caught. Path character
-# classes exclude quotes and brackets, so a path stops cleanly at `)` or `"`.
+# words like "and/or", "e.g.", or "3.14" are never caught. URL and path
+# character classes exclude quotes and brackets, so protected spans stop before
+# surrounding punctuation such as `)` or `"`.
 _URL_PARTS = (
-    r"https?://\S+",                          # URL with a scheme
-    r"www\.\S+",                              # scheme-less www URL
+    r"https?://[^\s<>()\[\]\"']+",            # URL with a scheme
+    r"www\.[^\s<>()\[\]\"']+",                # scheme-less www URL
     r"\b[\w.+-]+@[\w-]+\.\w+",                # email address
     r"(?<!\S)(?:\.\.?|~)?/[\w@.~/-]*[\w/]",   # path: /a, ./a, ../a, ~/a
     r"[\w.-]+/[\w.-]+/[\w@./-]+",             # relative path with 3+ segments
@@ -57,14 +58,12 @@ _HEADING = re.compile(r"^ {0,3}#{1,6}(?:\s|$)")
 def _is_fence(line: str) -> bool:
     """Whether a line is a code-fence marker rather than prose.
 
-    A real marker is ``` or ~~~ alone, or followed immediately by an info string
-    with no space. Prose like "``` is the marker" has a space right after the
-    backticks, so it does not flip the fence state.
+    Markdown allows an optional info string after the opening marker, with or
+    without a separating space, so lines like ``` python and ```python both
+    begin fenced code blocks.
     """
     stripped = line.strip()
-    if not stripped.startswith(_FENCE_PREFIXES):
-        return False
-    return len(stripped) == 3 or not stripped[3:4].isspace()
+    return stripped.startswith(_FENCE_PREFIXES)
 
 
 def _is_vowel(char: str) -> bool:
