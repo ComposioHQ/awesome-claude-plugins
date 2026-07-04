@@ -3,6 +3,18 @@
 All notable changes to claude-bionify are documented here. This project follows
 [semantic versioning](https://semver.org) and [Keep a Changelog](https://keepachangelog.com).
 
+## [1.0.1] - 2026-07-04
+
+### Fixed
+- Preserve fenced code blocks that use spaced info strings such as
+  ```` ``` python ````.
+- Stop URL protection before surrounding quotes and brackets.
+- Reject invalid boolean and minimum-word-length live override values instead
+  of silently applying surprising settings.
+- Save live overrides correctly when `CLAUDE_BIONIFY_STATE_FILE` is set to a
+  filename in the current working directory.
+- Use fully-qualified `/claude-bionify:set ...` examples in the plugin README.
+
 ## [1.0.0] - 2026-06-28
 
 Initial release.

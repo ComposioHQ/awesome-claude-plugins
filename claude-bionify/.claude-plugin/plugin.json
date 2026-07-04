@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "claude-bionify",
   "displayName": "claude-bionify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bionic reading for Claude's responses that bolds the leading part of each word to guide your eyes and enable you to read faster.",
   "author": {
     "name": "Samuel Ruairí Bullard",

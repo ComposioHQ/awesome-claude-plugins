@@ -36,7 +36,9 @@ def save(state: dict) -> None:
     target = path()
     tmp = f"{target}.tmp"
     try:
-        os.makedirs(os.path.dirname(target), exist_ok=True)
+        parent = os.path.dirname(target)
+        if parent:
+            os.makedirs(parent, exist_ok=True)
         with open(tmp, "w", encoding="utf-8") as f:
             json.dump(state, f)
         os.replace(tmp, target)
