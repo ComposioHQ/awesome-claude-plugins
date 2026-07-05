@@ -142,6 +142,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [agent-preflight](./agent-preflight) - Claude Code slash command that runs a lightweight repo-safety preflight before agent shell/tool use, flags agent/MCP config, risky scripts, workflow files, and secret-adjacent files, then turns the result into Green/Yellow/Red run/ask/avoid guidance.
 
 ### Developer Productivity
 
