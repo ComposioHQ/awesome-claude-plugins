@@ -1,0 +1,25 @@
+{
+  "name": "backend-security",
+  "displayName": "Backend Security",
+  "version": "0.2.0",
+  "description": "Defensive backend security for Claude Code: full-codebase audits, dependency and config scanning, secure-coding guidance while you write, and a phased zero-to-hardened roadmap. Stack-aware with a Node/TS deep-dive; anchored to OWASP Top 10 2021, ASVS 4.0, and CWE.",
+  "author": {
+    "name": "Ghostfreak-cypher",
+    "url": "https://github.com/Ghostfreak-cypher"
+  },
+  "homepage": "https://github.com/Ghostfreak-cypher/backend-security-skill",
+  "repository": "https://github.com/Ghostfreak-cypher/backend-security-skill",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "appsec",
+    "owasp",
+    "asvs",
+    "audit",
+    "backend",
+    "api",
+    "vulnerability",
+    "code-review",
+    "hardening"
+  ]
+}
