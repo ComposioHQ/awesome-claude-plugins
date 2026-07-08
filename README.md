@@ -121,6 +121,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [green-keeper](https://github.com/localplugins/plugins/tree/main/green-keeper) - Keeps your tests and types green while you code: fixes failing tests and type errors with a minimal change and re-runs to prove it, and won't let a session end with newly-introduced red. No fake-green — never skips a test or silences an error. Part of the [localplugins](https://github.com/localplugins/plugins) marketplace (also content-multiplier and money-map).
 
 ### Backend & Architecture
 
