@@ -157,6 +157,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Companion & Personality
 
 - [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Enhance Claude Code's `/buddy` companion with personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
+- [mr-meeseeks](https://github.com/thephw/claude-meseeks) - Plays a Mr. Meeseeks voice line whenever Claude Code is waiting on you: a "done" clip when it finishes, an "asking" clip on approval prompts, and a "feedback" clip when you send a prompt. Toggleable per category.
 
 ### Image Generation
 
