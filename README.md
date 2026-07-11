@@ -121,6 +121,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [claude-railguards](https://github.com/lmcdo/claude-railguards) - Deterministic pre-write guardrails for coding agents. A PreToolUse hook blocks edits that would duplicate existing code, a pre-implementation gate enforces investigation before database changes, and a QA-report contract gates risky pushes.
 
 ### Backend & Architecture
 
