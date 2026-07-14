@@ -105,6 +105,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [canvas-design](./canvas-design) - Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters and static pieces.
 - [senior-frontend](./senior-frontend) - React/Next.js/TypeScript development patterns with bundle analysis, component generation, and accessibility best practices.
 - [frontend-developer](./frontend-developer) - Frontend development specialist agent for building modern web interfaces.
+- [excalidraw-skill-pack](https://github.com/isatimur/excalidraw-skill-pack) - Opinionated Excalidraw methodology + themes so agents draw diagrams that argue, not boxes that label. Renders technical diagrams as code; works in any MCP client.
+- [presentation-skill-pack](https://github.com/isatimur/presentation-skill-pack) - Agent authors slide decks as structured JSON, then exports to native, editable PowerPoint, Keynote, and Google Slides.
+- [remotion-skill-pack](https://github.com/isatimur/remotion-skill-pack) - Agents author structured Remotion video specs (scene-by-scene JSON) that render to production-ready MP4.
 
 ### Git & Version Control
 
@@ -142,6 +145,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [de-slop](https://github.com/isatimur/de-slop) - De-slops AI prose: detects slop, rewrites to a point of view, self-scores, and flags hollow spans instead of faking claims. Zero-dependency Python CLI + skill.
 
 ### Developer Productivity
 
