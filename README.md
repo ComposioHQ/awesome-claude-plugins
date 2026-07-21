@@ -116,6 +116,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Code Quality & Testing
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI pentest platform and MCP host, covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - [AgentLint](https://github.com/0xmariowu/AgentLint) - Lint your repo for AI agent compatibility. 33 evidence-backed checks across 5 dimensions. Claude Code plugin.
 - [code-review](./code-review) - Comprehensive code review with best practices, patterns, and improvement suggestions.
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
