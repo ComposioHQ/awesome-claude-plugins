@@ -136,6 +136,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
+- [frugal](https://github.com/ThomasLangbroek/frugal) - Cost-optimised agent router for Claude Code. Routes each sub-task to the cheapest capable model (deterministic command, then Haiku, Sonnet, the main model, and Fable as an escalation ceiling) and escalates only on verified failure. Ships as a routing skill, five agent definitions, and two fail-open hooks, with per-run cost metrics.
 
 ### Documentation & Security
 
