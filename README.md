@@ -77,6 +77,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [Git & Version Control](#git--version-control)
   - [Code Quality & Testing](#code-quality--testing)
   - [Backend & Architecture](#backend--architecture)
+  - [Workflow & Methodology](#workflow--methodology)
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
@@ -128,6 +129,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+
+### Workflow & Methodology
+
+- [nWave](https://github.com/nWave-ai/nWave) - AI agents that guide you from idea to working code, with you in control at every step. A seven-wave delivery methodology (DISCOVER → DIVERGE → DISCUSS → DESIGN → DEVOPS → DISTILL → DELIVER) of ~40 specialized agents with human-review gates, enforced TDD phases, and peer reviewers. Installs via a one-line script that wires it into Claude Code (`nwave-ai` on PyPI). ([Website](https://nwave.ai))
 
 ### DevOps & Performance
 
