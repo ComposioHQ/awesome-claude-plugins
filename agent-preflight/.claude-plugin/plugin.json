@@ -1,0 +1,8 @@
+{
+  "name": "agent-preflight",
+  "version": "0.1.0",
+  "description": "Claude Code slash command for a lightweight repo-safety preflight before agent shell/tool use.",
+  "author": {
+    "name": "Agent Safety Starter Pack"
+  }
+}
