@@ -82,6 +82,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [Backend & Architecture](#backend--architecture)
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
+  - [Finance & Fintech](#finance--fintech)
   - [Developer Productivity](#developer-productivity)
   - [Companion & Personality](#companion--personality)
 - [Getting Started](#getting-started)
@@ -160,6 +161,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Companion & Personality
 
 - [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Enhance Claude Code's `/buddy` companion with personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
+
+### Finance & Fintech
+
+- [mortgage](https://github.com/lendtrain/mortgage) - Mortgage refinance plugin by LendTrain — real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, recommendation scoring, and regulatory compliance via MCP. No API key required. ([Website](https://www.lendtrain.com))
 
 ### Image Generation
 
