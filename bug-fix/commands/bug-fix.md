@@ -3,6 +3,7 @@ description: Streamlines bug fixing by creating a GitHub issue first, then a fea
 author: danielscholl
 author-url: https://github.com/danielscholl
 version: 1.0.0
+allowed-tools: Bash(git:*), Bash(gh:*), Read, Write, Edit, Glob, Grep
 ---
 
 Understand the bug: $ARG

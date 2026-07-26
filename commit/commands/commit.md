@@ -3,6 +3,7 @@ description: Creates git commits using conventional commit format with appropria
 author: evmts
 author-url: https://github.com/evmts
 version: 1.0.0
+allowed-tools: Bash(git:*), Bash(npm:*), Bash(yarn:*), Bash(pnpm:*)
 ---
 
 # Commit Command

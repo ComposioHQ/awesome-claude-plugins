@@ -3,6 +3,7 @@ description: Reviews pull request changes to provide feedback, check for issues,
 author: arkavo-org
 author-url: https://github.com/arkavo-org
 version: 1.0.0
+allowed-tools: Bash(git:*), Bash(gh:*), Read, Glob, Grep
 ---
 
 # Comprehensive PR Review Template

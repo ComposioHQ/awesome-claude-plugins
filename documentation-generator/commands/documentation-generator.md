@@ -1,6 +1,7 @@
 ---
 description: Generate comprehensive documentation for code and APIs
 tags: [documentation, api-docs]
+allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 
 # Documentation Generator
