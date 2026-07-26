@@ -228,3 +228,7 @@ Please ensure your plugin:
 ## License
 
 MIT - See individual plugins for their specific licenses.
+
+
+## Web3 & Security
+- [MetaVision CVE Oracle & DeFi Signals](https://metavision.click/mcp) - Web3 security scanning (355k+ NVD CVEs), live DeFi arbitrage signals (Uniswap V3 vs Aerodrome on Base), wallet fraud detection. x402 v2 micropayments. ([Agent Card](https://metavision.click/.well-known/agent.json))
