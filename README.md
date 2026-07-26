@@ -103,6 +103,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Frontend & Design
 
 - [frontend-design](./frontend-design) - Create distinctive, production-grade interfaces. Avoids generic "AI slop" with bold typography, unique color palettes, and creative layouts.
+- [UIZZE](https://uizze.com) - Product-specific UI finish gates, a free screenshot score, and optional real-world design references for coding-agent UI work.
 - [artifacts-builder](./artifacts-builder) - Suite of tools for creating elaborate, multi-component HTML artifacts using React, Tailwind CSS, and shadcn/ui.
 - [theme-factory](./theme-factory) - Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes.
 - [canvas-design](./canvas-design) - Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters and static pieces.
