@@ -142,6 +142,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Documentation & Security
 
+- [ClawSearch](https://clawsearch.cc) - AI agent skill discovery with trust scoring, pre-install security checks, and side-by-side comparison. Free API with 200 req/week. ([Website](https://clawsearch.cc))
+- [ClawSec](https://github.com/prompt-security/clawsec) - Security audit suite for AI agent skills. Five-tier detection, Firecracker sandbox execution, continuous rule evolution, and automated vulnerability reports. ([Website](https://clawsec.cc))
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
