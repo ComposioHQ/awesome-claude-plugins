@@ -12,9 +12,9 @@ This command is a **signal**, not an interactive command. It is automatically in
 
 When skill-bus detects that a skill (e.g. `superpowers:writing-plans`) has subscriptions with `"when": "complete"`, it injects an instruction during the pre-hook:
 
-> "When you have FULLY completed the work described by this skill, you MUST run `/skill-bus:complete superpowers:writing-plans`"
+> "You MUST invoke the Skill tool with skill: `skill-bus:complete` and args: `superpowers:writing-plans`"
 
-Claude runs this command when done. The PreToolUse hook intercepts it and fires the downstream subscriptions, injecting their context ABOVE this command markdown.
+Claude invokes this command when done. The PreToolUse hook intercepts it and fires the downstream subscriptions, injecting their context ABOVE this command markdown.
 
 ## Arguments
 
