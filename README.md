@@ -131,6 +131,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [praetor](https://github.com/luoxianzi/praetor) - Delegate grunt work from Claude to the Codex CLI behind a binding independent judge — acceptance criteria frozen in git before the executor runs, fresh-context PASS/FAIL that cannot be overridden, Legion Mode for 2–5 parallel workers in git worktrees with an integration judge. Zero config.
 
 ### DevOps & Performance
 
