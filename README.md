@@ -99,6 +99,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [voice-notes-to-reminders](https://github.com/nervextech/nxvet-skills/tree/main/voice-notes-to-reminders) - Turn NxHUB voice recordings into private local reminders and calendar events.
+- [clinic-activity-report](https://github.com/nervextech/nxvet-skills/tree/main/clinic-activity-report) - Generate read-only veterinary clinic activity and device health reports.
 
 ### Frontend & Design
 
