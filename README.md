@@ -150,6 +150,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
+- [talivia-agent-kit](https://github.com/talivia-group/agent) - Claude Code plugin, Agent Skill, CLI, and MCP server for installing revenue-first website analytics, verifying live events, and connecting traffic to payment attribution.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
