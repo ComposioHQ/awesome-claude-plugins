@@ -99,6 +99,11 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [xberg](https://github.com/xberg-io/plugins/tree/main/plugins/xberg) - Local document extraction. Text, tables, metadata, and images from 97+ formats (PDF, Office, images with OCR, HTML, email, archives). MCP server exposes the full extraction surface to your agent.
+- [crawlberg](https://github.com/xberg-io/plugins/tree/main/plugins/crawlberg) - Web crawling and scraping with HTML→Markdown conversion and headless-Chrome fallback. MCP server exposes scrape, crawl, map, and interact tools.
+- [html-to-markdown](https://github.com/xberg-io/plugins/tree/main/plugins/html-to-markdown) - Fast, lossless HTML→Markdown conversion with structured metadata, tables, and document-structure extraction.
+- [liter-llm](https://github.com/xberg-io/plugins/tree/main/plugins/liter-llm) - Universal LLM API client for 143 providers — chat, streaming, tools, embeddings, search, OCR, plus an OpenAI-compatible proxy and an MCP server.
+- [tree-sitter-language-pack](https://github.com/xberg-io/plugins/tree/main/plugins/tree-sitter-language-pack) - Code intelligence for 300+ languages via tree-sitter — structure, imports, symbols, and syntax-aware chunking.
 
 ### Frontend & Design
 
