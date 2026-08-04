@@ -124,6 +124,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [sonmat](https://github.com/jun0-ds/sonmat) - Verification discipline plugin for Claude Code. Six reactive axes — guard, inspect, witness, punch, devil's advocate, scribe — catch what confident AI outputs miss. Works with Claude Code, Codex CLI, and Gemini CLI.
 
 ### Backend & Architecture
 
@@ -157,6 +158,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [bobusang](https://github.com/jun0-ds/bobusang) - Multi-device memory system for Claude Code. Syncs context, settings, and project state across Windows, WSL2, and Linux with git-based auto-sync.
 
 ### Companion & Personality
 
