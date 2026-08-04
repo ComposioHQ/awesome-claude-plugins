@@ -131,6 +131,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [runtype-skills](https://github.com/runtypelabs/skills) - AI product development on Runtype's managed edge runtime — build, deploy, and operate agents, flows, tools, and surfaces with six specialized skills for SDK usage, admin, templates, personas, and more.
 
 ### DevOps & Performance
 
