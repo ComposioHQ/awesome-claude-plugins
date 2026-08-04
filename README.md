@@ -125,6 +125,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
 
+
+**[qa-orchestra](https://github.com/Anasss/qa-orchestra)** - Multi-agent QA toolkit with 10 specialized agents covering the full QA lifecycle — orchestrator, environment-manager, functional-reviewer, test-scenario-designer, browser-validator, automation-writer, manual-validator, bug-reporter, release-analyzer, and smart-test-selector. Stack-agnostic with output chaining and live browser validation via Chrome MCP.
+
 ### Backend & Architecture
 
 - [backend-architect](./backend-architect) - Backend architecture patterns, API design, database schemas, and system design.
