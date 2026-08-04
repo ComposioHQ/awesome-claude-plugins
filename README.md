@@ -149,6 +149,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Developer Productivity
 
+- [compounded](https://github.com/ankitkr3/compounded) - Learns from your corrections — approved lessons become rules that earn autonomy through a trust ladder (verified → trusted → autonomous; one mistake = one level down). Active rules inject at session start. Python stdlib only, no daemon, 100% local.
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
