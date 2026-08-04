@@ -83,6 +83,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
+  - [Business & Analytics](#business--analytics)
   - [Companion & Personality](#companion--personality)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
@@ -157,6 +158,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+
+### Business & Analytics
+
+- [claude-ecom](https://github.com/takechanman1228/claude-ecom) - Ecommerce business-review plugin for D2C stores. Turns an order CSV into a structured monthly review with multi-horizon KPI decomposition (30d/90d/365d), ~30 automated health checks across revenue/customer/product, RFM cohorts, and a prioritized action plan with revenue impact estimates.
 
 ### Companion & Personality
 
