@@ -99,6 +99,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [optionsahoy](https://github.com/AlvisoOculus/optionsahoy-claude-plugin) - Deterministic US equity-compensation tax optimizer. Bundles a hosted MCP server plus a planning skill for incentive stock option (ISO) and alternative minimum tax (AMT) planning, non-qualified stock option (NSO) and restricted stock unit (RSU) decisions, single-stock concentration, protective puts, qualified small business stock (QSBS) checks, and equity funding plans.
 
 ### Frontend & Design
 
