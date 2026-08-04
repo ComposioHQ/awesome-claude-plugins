@@ -148,6 +148,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [asqav-claude-code](https://github.com/jagmarques/asqav-claude-code) - Signs a tamper-evident Asqav receipt at the end of each Claude Code session: files edited (content hashes before/after), commands run (hashed), and git context. Verifiable by anyone at asqav.com/verify.
 
 ### Developer Productivity
+- [claude-sounds](https://github.com/culminationAI/claude-sounds) - Your Claude Code shouldn't be silent. Sound effects for all hooks — spells, chimes, clicks. Drop mp3s to customize.
 
 - [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
