@@ -116,6 +116,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [pr-review](./pr-review) - Comprehensive PR reviews with detailed feedback on code quality, security, and best practices.
 - [changelog-generator](./changelog-generator) - Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.
 - [ship](./ship) - Complete PR workflow from commit to production. Lint, test, review, and deploy.
+- [git-timesheet](https://github.com/MarcinSufa/git-timesheet) - Generates weekly PDF/CSV timesheets from git commit history. Realistic hour allocation by commit complexity, holidays for 9 countries, invoice totals (hours × rate), and push integrations with Toggl, Clockify, TMetric, and Harvest.
 
 ### Code Quality & Testing
 
