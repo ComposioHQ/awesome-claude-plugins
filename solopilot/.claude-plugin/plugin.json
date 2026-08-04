@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/hesreallyhim/claude-code-json-schema/main/schemas/plugin.schema.json",
+  "name": "solopilot",
+  "version": "0.1.0",
+  "description": "PM-driven autonomous engineering for solo builders. Spec-truth, 3-agent (Coordinator/Implementor/Verifier), drift-resistant, self-improving. One command bootstraps the whole system.",
+  "author": {
+    "name": "flow"
+  },
+  "homepage": "https://github.com/Mrbaeksang/solopilot",
+  "repository": "https://github.com/Mrbaeksang/solopilot",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "autonomous-agents",
+    "pm-driven",
+    "spec-driven",
+    "compound-engineering",
+    "agent-harness",
+    "solo-developer",
+    "drift-detection"
+  ]
+}
