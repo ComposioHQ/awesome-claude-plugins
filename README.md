@@ -120,6 +120,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Code Quality & Testing
 
 - [AgentLint](https://github.com/0xmariowu/AgentLint) - Lint your repo for AI agent compatibility. 33 evidence-backed checks across 5 dimensions. Claude Code plugin.
+- [AsOf](https://github.com/amatayomosley-web/asof) - Temporal-awareness hooks that flag stale in-context data before it corrupts reasoning. Tracks file mtime drift between Reads, parses prompts for embedded dates, and compares pseudo-stable claims against the training cutoff. `pip install asoftime && asof install`.
 - [code-review](./code-review) - Comprehensive code review with best practices, patterns, and improvement suggestions.
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
