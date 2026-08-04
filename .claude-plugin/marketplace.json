@@ -201,6 +201,16 @@
       }
     },
     {
+      "name": "teenybase",
+      "source": "./teenybase",
+      "description": "Backend-as-a-service on Cloudflare Workers with TypeScript config — REST API, auth, row-level security, auto-migrations, OpenAPI docs, and admin panel",
+      "category": "backend",
+      "tags": ["backend", "cloudflare", "workers", "d1", "api", "auth", "serverless"],
+      "author": {
+        "name": "teenybase"
+      }
+    },
+    {
       "name": "perf",
       "source": "./perf",
       "description": "Performance analysis and optimization",
