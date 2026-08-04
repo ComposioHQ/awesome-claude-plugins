@@ -249,6 +249,16 @@
       "author": {
         "name": "Composio"
       }
+    },
+    {
+      "name": "claude-bionify",
+      "source": "./claude-bionify",
+      "description": "Bionic reading for Claude Code responses with configurable word-leading bolding",
+      "category": "productivity",
+      "tags": ["productivity", "accessibility", "readability", "bionic-reading", "focus"],
+      "author": {
+        "name": "Samuel Ruairí Bullard"
+      }
     }
   ]
 }

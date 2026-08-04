@@ -1,0 +1,17 @@
+{
+  "description": "Bionic reading: bolds leading portions of each word for faster reading.",
+  "hooks": {
+    "MessageDisplay": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/bionify.py"],
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

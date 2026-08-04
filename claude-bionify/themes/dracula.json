@@ -1,0 +1,13 @@
+{
+  "name": "Dracula",
+  "base": "dark",
+  "overrides": {
+    "text": "#F8F8F2",
+    "claude": "#BD93F9",
+    "subtle": "#6272A4",
+    "promptBorder": "#44475A",
+    "error": "#FF5555",
+    "success": "#50FA7B",
+    "warning": "#F1FA8C"
+  }
+}

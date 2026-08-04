@@ -171,6 +171,13 @@
       "description": "Analyze coding patterns and get personalized learning resources",
       "author": "Composio",
       "tags": ["productivity", "learning", "growth", "analytics"]
+    },
+    {
+      "name": "claude-bionify",
+      "category": "productivity",
+      "description": "Bionic reading for Claude Code responses with configurable word-leading bolding",
+      "author": "Samuel Ruairí Bullard",
+      "tags": ["productivity", "accessibility", "readability", "bionic-reading", "focus"]
     }
   ],
   "categories": [
