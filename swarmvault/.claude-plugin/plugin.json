@@ -1,0 +1,23 @@
+{
+  "name": "swarmvault",
+  "version": "0.7.30",
+  "description": "Local-first RAG knowledge vault. Compile raw sources into a durable markdown wiki with a knowledge graph and hybrid SQLite FTS plus embeddings. Ships an MCP server and slash commands for compile, query, and graph.",
+  "author": {
+    "name": "SwarmClaw AI",
+    "url": "https://swarmvault.ai"
+  },
+  "homepage": "https://swarmvault.ai",
+  "repository": "https://github.com/swarmclawai/swarmvault",
+  "license": "MIT",
+  "keywords": [
+    "rag",
+    "knowledge-base",
+    "wiki",
+    "graph",
+    "local-first",
+    "mcp",
+    "markdown",
+    "embeddings",
+    "fts"
+  ]
+}
