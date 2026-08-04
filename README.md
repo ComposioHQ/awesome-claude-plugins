@@ -131,6 +131,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
 - [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
+- [swarmclaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime that delegates to Claude Code, Codex, Gemini CLI, OpenCode, Copilot CLI, Cursor Agent, Goose, Qwen Code, and Droid. Org chart view, schedules, runtime skills, persistent memory, sub-agent spawning, MCP-native (server and client). Electron desktop app, CLI, and Docker.
 
 ### DevOps & Performance
 
@@ -157,6 +158,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [swarmvault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge vault with bundled MCP server and `/swarmvault:compile`, `/swarmvault:query`, `/swarmvault:graph` slash commands. Compiles raw sources into a durable markdown wiki with knowledge graph and hybrid SQLite FTS plus embeddings. Cuts agent token usage by serving compact wiki summaries instead of repeated full-file reads.
 
 ### Companion & Personality
 
