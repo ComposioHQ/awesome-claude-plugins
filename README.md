@@ -124,6 +124,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
 - [bug-fix](./bug-fix) - Analyzes stack traces and code to identify and fix bugs in your codebase.
+- [dod-guard](https://github.com/atoslins/dod-guard) - Enforce a Definition of Done as an executable barrier. Stops agents from declaring "done" with stubs, tautological tests, or unverified claims. 7 read-only adversarial subagents + 11 deterministic detectors + 5 lifecycle hooks with `stop_hook_active` loop prevention. Python, JS/TS, Go coverage.
 
 ### Backend & Architecture
 
