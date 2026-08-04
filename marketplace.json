@@ -171,6 +171,13 @@
       "description": "Analyze coding patterns and get personalized learning resources",
       "author": "Composio",
       "tags": ["productivity", "learning", "growth", "analytics"]
+    },
+    {
+      "name": "backend-security",
+      "category": "security",
+      "description": "Full-codebase backend security audits, dependency/config scanning, secure-coding guidance, and a phased zero-to-hardened roadmap. OWASP Top 10 / ASVS anchored, benchmarked against NodeGoat",
+      "author": "Ghostfreak-cypher",
+      "tags": ["security", "owasp", "asvs", "audit", "appsec", "backend"]
     }
   ],
   "categories": [
