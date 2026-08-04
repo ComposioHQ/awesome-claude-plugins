@@ -157,6 +157,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [memento](https://github.com/mementoagi/memento-claude-code-plugin) - Cloud-native memory for AI coding agents. Your AI remembers your codebase, team conventions, past decisions, and conversations across sessions, IDEs, and machines. Hierarchical knowledge graph with semantic, keyword, and graph recall. Slash commands: /wake-up, /recall, /remember, /sleep, /handoff, /pickup. Browseable and editable on the web. ([Website](https://mementoagi.com))
 
 ### Companion & Personality
 
