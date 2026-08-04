@@ -1,3 +1,8 @@
+---
+description: "Reference: Error Handling & Recovery procedures for /ship — failure modes, rollback steps, and resume instructions. Not a standalone command."
+allowed-tools: []
+---
+
 # Error Handling & Recovery - Reference
 
 This file contains error handling procedures for `/ship`.
