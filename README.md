@@ -157,6 +157,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
+- [Superpower Builder](https://github.com/redhuntlabs/superpower-builder) - Interview-driven meta-builder for Claude Code that turns recurring tasks into reusable plugins and skills, routed by kind (workflow, discipline, content, subagent) so each interview is specialist-tailored. Every generated skill is pressure-tested baseline-without-skill vs. with-skill before being saved, demonstrating behavior change. Ships 25 hand-crafted superpowers spanning dev (TDD, plan/execute) and non-dev (research, decisions, writing). Marketplace install: `/plugin marketplace add redhuntlabs/superpower-builder`. MIT, no telemetry.
 
 ### Companion & Personality
 
