@@ -1,7 +1,7 @@
 <h1 align="center">Awesome Claude Code Plugins</h1>
 
 <p align="center">
-<a href="https://platform.composio.dev/?utm_source=Github&utm_medium=Banner&utm_content=AwesomePlugins">
+<a href="https://dashboard.composio.dev/login?utm_source=Github&utm_medium=Banner&utm_content=AwesomePlugins">
   <img width="1280" alt="Awesome Claude Plugins" src="./cover_image.png">
 </a>
 </p>
@@ -36,13 +36,16 @@
 A curated list of production-ready plugins for Claude Code to supercharge your development workflow.
 </p>
 
-> **Want plugins that do more than generate text?** The [connect-apps](./connect-apps) plugin lets Claude send emails, create issues, post to Slack, and take actions across 500+ apps.
+> **Want plugins that do more than generate text?** The [connect-apps](./connect-apps) plugin lets Claude send emails, create issues, post to Slack, and take actions across 1000+ apps.
 
 ---
 
-## Quickstart: Connect Claude to 500+ Apps
+## Give your skills real-world actions
 
-The **[connect-apps](./connect-apps)** plugin lets Claude perform real actions - send emails, create issues, post to Slack. It handles auth and connects to 500+ apps using Composio under the hood.
+Skills tell your agent **how** to work. An MCP Gateway gives it secure access to the tools it needs.
+
+Composio [MCP Gateway](https://composio.dev/mcp-gateway) provides a single MCP endpoint for 1,000+ integrations with built-in authentication, team-based access controls, audit logs, and production-ready reliability.
+
 
 ### 1. Clone & Run
 
@@ -58,11 +61,11 @@ claude --plugin-dir ./connect-apps
 /connect-apps:setup
 ```
 
-Paste your API key when asked. (Get a free key at [platform.composio.dev](https://platform.composio.dev?next_page=/settings/api-keys))
+Paste your API key when asked. (Get a free key at [dashboard.composio.dev](https://dashboard.composio.dev/login?utm_source=Github&utm_medium=Banner&utm_content=AwesomePlugins)
 
 ### 3. Try It
 
-Ask Claude to send you a test email. If you receive it, Claude is now connected to 500+ apps.
+Ask Claude to send you a test email. If you receive it, Claude is now connected to 1000+ apps.
 
 **[See all supported apps →](https://composio.dev/tools)**
 
@@ -80,6 +83,7 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
+  - [Companion & Personality](#companion--personality)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Resources](#resources)
@@ -93,8 +97,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Integrations
 
-- [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
-- [coinpaprika-skills](https://github.com/coinpaprika/skills) - Two crypto data plugins: CoinPaprika (12K+ coins, 350+ exchanges, OHLCV, tickers) and DexPaprika (34 chains, 30M+ DEX pools, real-time streaming). Free, no API key.
+- [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
+- [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
+- [coinpaprika-skills](https://github.com/coinpaprika/skills) - Two crypto data plugins: CoinPaprika (12,000+ coins, 350+ exchanges, tickers, OHLCV) and DexPaprika (DEX pools and tokens across 36 chains, SSE streaming). Free tier, no API key required.
 
 ### Frontend & Design
 
@@ -115,6 +120,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 ### Code Quality & Testing
 
+- [AgentLint](https://github.com/0xmariowu/AgentLint) - Lint your repo for AI agent compatibility. 33 evidence-backed checks across 5 dimensions. Claude Code plugin.
 - [code-review](./code-review) - Comprehensive code review with best practices, patterns, and improvement suggestions.
 - [test-writer-fixer](./test-writer-fixer) - Automatically write and fix unit tests. Supports Jest, Vitest, Pytest, and more.
 - [debugger](./debugger) - Advanced debugging assistant for tracking down and fixing complex bugs.
@@ -125,11 +131,13 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [backend-architect](./backend-architect) - Backend architecture patterns, API design, database schemas, and system design.
 - [mcp-builder](./mcp-builder) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.
 - [agent-sdk-dev](./agent-sdk-dev) - Claude Agent SDK development helper for building custom AI agents.
+- [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent development orchestration coordinating 22 specialized subagents through 4-phase workflows with native parallel execution, persistent sessions, and standalone commands for code review, debugging, security audit, and more.
 
 ### DevOps & Performance
 
 - [perf](./perf) - Performance analysis and optimization. Identify bottlenecks and improve speed.
 - [audit-project](./audit-project) - Full project audit for code quality, dependencies, security, and best practices.
+- [MyVibe](https://www.myvibe.so) - Instant deployment to live URLs with `/myvibe:publish`.
 - [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
 - [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
 
@@ -137,16 +145,28 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [documentation-generator](./documentation-generator) - Generate comprehensive documentation from code. READMEs, API docs, and guides.
 - [security-guidance](./security-guidance) - Security best practices and vulnerability detection. OWASP guidelines and secure coding.
+- [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, and AI-specific vulnerabilities.
+- [asqav-claude-code](https://github.com/jagmarques/asqav-claude-code) - Signs a tamper-evident Asqav receipt at the end of each Claude Code session: files edited (content hashes before/after), commands run (hashed), and git context. Verifiable by anyone at asqav.com/verify.
 
 ### Developer Productivity
+
+- [CCHub](https://github.com/Moresl/cchub) - Desktop app for managing the Claude Code ecosystem — MCP marketplace, config profiles, skills & plugins browser, workflow templates, security audit. Built with Tauri v2 + React + Rust.
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
 - [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
+- [codebase-graph](https://github.com/Phoenixrr2113/codebase-graph) - Code intelligence MCP server that builds knowledge graphs from source code with 42-language tree-sitter AST parsing and FalkorDB.
+- [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
+- [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
 
-### Image Generation
+### Companion & Personality
+
+- [claude-familiar](https://github.com/yaniv-golan/claude-familiar) - Enhance Claude Code's `/buddy` companion with personality, mood, lore, and interactive commands (fortune, roast, haiku, focus timer). Mood shifts automatically on tool success/failure. Extensible — other plugins can layer traits and lore via `"x-familiarExtensions"` in their `plugin.json`.
+
+### Image and Video Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+- [taisly-agent-kit](https://github.com/taisly/agent) - Claude Code plugin, skill, SDK, CLI, and MCP server for publishing short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook through Taisly.
 
 ## Getting Started
 
