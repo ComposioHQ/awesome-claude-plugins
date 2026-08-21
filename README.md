@@ -108,6 +108,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [canvas-design](./canvas-design) - Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters and static pieces.
 - [senior-frontend](./senior-frontend) - React/Next.js/TypeScript development patterns with bundle analysis, component generation, and accessibility best practices.
 - [frontend-developer](./frontend-developer) - Frontend development specialist agent for building modern web interfaces.
+- [arena](https://github.com/dravensoft-dev/arena) - Token-driven design system as a skill: React and Angular component libraries on a shared Tailwind layer, with the API and the accessibility pattern of every component written as a contract the agent reads before it writes. Carries the design language and not the skin.
 
 ### Git & Version Control
 
