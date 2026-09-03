@@ -98,6 +98,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
+- [immich-photo-manager](https://github.com/drolosoft/immich-photo-manager) - Manage your self-hosted Immich photo library through conversation: natural language and OCR search, geographic albums from GPS data, duplicate detection, people and faces, metadata repair, video frames and PDF photobooks, interactive HTML galleries. 94 MCP tools, 13 skills, 5 commands, tested live on Immich 2.x and 3.x.
 - [kaggle-skill](https://github.com/shepsci/kaggle-skill) - Complete Kaggle integration — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection.
 
 ### Frontend & Design
